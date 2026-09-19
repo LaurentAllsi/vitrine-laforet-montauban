@@ -34,7 +34,7 @@ Publication par GitHub Pages, sans rien à installer ni à payer.
 1. Brancher l'écran au réseau (RJ45 ou Wi-Fi) et régler **date et heure**.
 2. `MENU → OnScreen Display → Display Orientation` → orientation **Portrait** (« Source Content Orientation »).
 3. `MENU → Système → Play via` → **URL Launcher**.
-4. `HOME → URL Launcher Settings → Install Web App` → saisir l'adresse Cloudflare de la vitrine.
+4. `HOME → URL Launcher Settings → Install Web App` → saisir l'adresse de la vitrine (voir §2).
 5. `HOME → URL Launcher` pour lancer. **À tester** : éteindre puis rallumer l'écran (ou couper le courant) et vérifier que la vitrine redémarre seule ; sinon regarder les réglages `Système` (source à l'allumage).
 6. Programmer l'allumage / extinction : `On/Off Timer` (manuel p. 52-53).
 
