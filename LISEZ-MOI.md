@@ -25,8 +25,10 @@ python -m http.server 8765 --directory public
 ```
 Ouvrir http://localhost:8765 (ajouter `?fast=1&debug=1` pour un défilement rapide avec infos de contrôle).
 
-### 2. Héberger `public/` (même méthode que vos apps Syndic)
-Dépôt git + Cloudflare Pages : *Framework preset* = None, *Build command* = vide, *Build output directory* = `public`. Chaque `git push` republie.
+### 2. Hébergement (en place)
+Dépôt GitHub : https://github.com/LaurentAllsi/vitrine-laforet-montauban
+Adresse à saisir dans l'écran : **https://laurentallsi.github.io/vitrine-laforet-montauban/**
+Publication par GitHub Pages, sans rien à installer ni à payer.
 
 ### 3. Régler l'écran (manuel Samsung LFD, chap. 07)
 1. Brancher l'écran au réseau (RJ45 ou Wi-Fi) et régler **date et heure**.
@@ -37,14 +39,16 @@ Dépôt git + Cloudflare Pages : *Framework preset* = None, *Build command* = vi
 6. Programmer l'allumage / extinction : `On/Off Timer` (manuel p. 52-53).
 
 Si la page s'affiche **couchée** : ajouter `?rot=90` (ou `?rot=-90`) à l'adresse, ou `?rot=auto`.
-Si le menu « URL Launcher » n'existe pas sur votre modèle : voir le plan B.
+Si le menu « URL Launcher » n'existe pas sur votre modèle, ou si l'écran refuse la connexion sécurisée (HTTPS) : voir le plan B.
 
-### 4. Mise à jour quotidienne
-Planificateur de tâches Windows → tâche quotidienne (ex. 6 h 30) qui lance `mettre_a_jour.bat` (le PC doit être allumé).
-Alternative sans PC : GitHub Actions — à mettre en place ensuite si vous le souhaitez.
+### 4. Mise à jour automatique (dans le cloud, PC éteint)
+Le workflow GitHub Actions (`.github/workflows/vitrine.yml`) s'exécute **chaque jour vers 6 h 30 et 14 h 30** : il relit laforet.com/montauban, régénère les données et republie. Suivi : onglet *Actions* du dépôt ; lancement immédiat : *Run workflow*.
+- Si le site laforet.com est indisponible ou renvoie trop peu d'annonces, **rien n'est publié** : la version de la veille reste affichée.
+- GitHub désactive les tâches planifiées d'un dépôt public inactif depuis 60 jours ; le workflow enregistre `data.json` chaque jour pour rester actif. Si un e-mail GitHub signale la désactivation, cliquer sur *Enable workflow*.
+- `mettre_a_jour.bat` reste disponible pour lancer une mise à jour depuis le PC (optionnel).
 
 ## Instagram
-Déposer les visuels à afficher dans `instagram/` (jpg / png, idéalement 4:5 ou carré). Les 4 plus récents sont affichés. Instagram interdit la récupération automatique sans l'API officielle (compte pro + Facebook + jeton).
+Ajouter les visuels dans le dossier `instagram/` du dépôt : GitHub → dossier `instagram` → *Add file → Upload files* (jpg / png, idéalement 4:5 ou carré). La publication se relance automatiquement ; les 4 plus récents sont affichés. Depuis le PC : déposer dans le dossier local `instagram/` puis lancer `mettre_a_jour.bat`. Instagram interdit la récupération automatique sans l'API officielle (compte pro + Facebook + jeton).
 
 ## Plan B (si URL Launcher est absent ou instable)
 `URL Launcher Settings → Install from USB Device` : copier le contenu de `public/` sur une clé USB. Même rendu, hors ligne ; la mise à jour se fait alors en changeant la clé.
