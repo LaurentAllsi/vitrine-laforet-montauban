@@ -30,16 +30,13 @@ Dépôt GitHub : https://github.com/LaurentAllsi/vitrine-laforet-montauban
 Adresse à saisir dans l'écran : **https://laurentallsi.github.io/vitrine-laforet-montauban/**
 Publication par GitHub Pages, sans rien à installer ni à payer.
 
-### 3. Régler l'écran (manuel Samsung LFD, chap. 07)
-1. Brancher l'écran au réseau (RJ45 ou Wi-Fi) et régler **date et heure**.
-2. `MENU → OnScreen Display → Display Orientation` → orientation **Portrait** (« Source Content Orientation »).
-3. `MENU → Système → Play via` → **URL Launcher**.
-4. `HOME → URL Launcher Settings → Install Web App` → saisir l'adresse de la vitrine (voir §2).
-5. `HOME → URL Launcher` pour lancer. **À tester** : éteindre puis rallumer l'écran (ou couper le courant) et vérifier que la vitrine redémarre seule ; sinon regarder les réglages `Système` (source à l'allumage).
-6. Programmer l'allumage / extinction : `On/Off Timer` (manuel p. 52-53).
+### 3. Afficher la vitrine sur l'écran — ATTENTION
+**L'URL Launcher intégré Samsung ne sait pas afficher une simple page web.** « Install Web App » attend un dossier contenant un `sssp_config.xml` et une application Tizen `.wgt` **signée avec un certificat Samsung** (test réalisé le 19/09/2026 : google.com, neverssl.com et la vitrine donnent tous « impossible de télécharger l'application Web »). Ne pas insister avec cette méthode.
 
-Si la page s'affiche **couchée** : ajouter `?rot=90` (ou `?rot=-90`) à l'adresse, ou `?rot=auto`.
-Si le menu « URL Launcher » n'existe pas sur votre modèle, ou si l'écran refuse la connexion sécurisée (HTTPS) : voir le plan B.
+Voies possibles :
+1. **Petit lecteur branché en HDMI** (ancien mini-PC, Fire TV Stick, Raspberry Pi, mini-PC Windows) qui ouvre la vitrine en plein écran (navigateur en mode kiosque). Aucune modification de la vitrine. Portrait : rotation dans le lecteur (Windows) ou par l'écran (`MENU → OnScreen Display → Display Orientation → Source Content Orientation → Portrait`) avec `?rot=90` ou `?rot=-90` dans l'adresse.
+2. **Vidéo / images sur clé USB** lues par MagicInfo Lite (gratuit, mise à jour manuelle).
+3. **Service d'affichage dynamique** dont le lecteur est déjà signé pour Samsung (abonnement).
 
 ### 4. Mise à jour automatique (dans le cloud, PC éteint)
 Le workflow GitHub Actions (`.github/workflows/vitrine.yml`) s'exécute **chaque jour vers 6 h 30 et 14 h 30** : il relit laforet.com/montauban, régénère les données et republie. Suivi : onglet *Actions* du dépôt ; lancement immédiat : *Run workflow*.
@@ -49,9 +46,6 @@ Le workflow GitHub Actions (`.github/workflows/vitrine.yml`) s'exécute **chaque
 
 ## Instagram
 Ajouter les visuels dans le dossier `instagram/` du dépôt : GitHub → dossier `instagram` → *Add file → Upload files* (jpg / png, idéalement 4:5 ou carré). La publication se relance automatiquement ; les 4 plus récents sont affichés. Depuis le PC : déposer dans le dossier local `instagram/` puis lancer `mettre_a_jour.bat`. Instagram interdit la récupération automatique sans l'API officielle (compte pro + Facebook + jeton).
-
-## Plan B (si URL Launcher est absent ou instable)
-`URL Launcher Settings → Install from USB Device` : copier le contenu de `public/` sur une clé USB. Même rendu, hors ligne ; la mise à jour se fait alors en changeant la clé.
 
 ## Mentions légales affichées
 Prix, honoraires (vendeur ou locataire), dépôt de garantie et **DPE** sont repris de l'annonce sur laforet.com pour chaque bien affiché.
