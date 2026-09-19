@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Laforêt Montauban – Vitrine</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+/* Compatible Chromium 56 (écrans Samsung Tizen 2018) : pas de grid, pas de gap, pas d'aspect-ratio. */
+:root{--blue:#153D8A;--deep:#0E2B66;--cyan:#009EE3;--sky:#C8E2F1;--ice:#EEF6FB;--grey:#5b6b80}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden;background:#0E2B66;cursor:none;font-family:'Lexend',Arial,sans-serif;color:var(--blue)}
+#stage{position:absolute;left:50%;top:50%;width:1080px;height:1920px;margin:-960px 0 0 -540px;overflow:hidden;background:#fff;transform-origin:50% 50%}
+.slide{position:absolute;left:0;top:0;width:1080px;height:1920px;opacity:0;transition:opacity 1.2s ease;overflow:hidden;background:#fff}
+.slide.on{opacity:1}
+img{display:block}
+.nb{white-space:nowrap}
+
+/* ---------- annonce ---------- */
+.l-photo{position:absolute;left:0;top:0;width:1080px;height:990px;overflow:hidden;background:var(--deep)}
+.ph{position:absolute;left:0;top:0;width:1080px;height:990px;opacity:0;transition:opacity 1.2s ease}
+.ph.act{opacity:1}
+.ph img{width:100%;height:100%;object-fit:cover}
+.ph.act img{animation:kb 18s linear forwards}
+@keyframes kb{from{transform:scale(1)}to{transform:scale(1.09)}}
+.l-tags{position:absolute;left:48px;top:48px;z-index:3}
+.tag{display:inline-block;padding:14px 30px;border-radius:14px;font-weight:700;font-size:36px;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:var(--blue);margin-right:16px;box-shadow:0 6px 24px rgba(0,0,0,.25)}
+.tag.rent{background:var(--cyan)}
+.tag.flag{background:#fff;color:var(--blue)}
+.l-dpe{position:absolute;left:48px;top:690px;z-index:3;background:#fff;border-radius:16px;padding:10px;box-shadow:0 6px 24px rgba(0,0,0,.25)}
+.l-dpe img{height:226px;width:auto;max-width:470px}
+.l-panel{position:absolute;left:0;top:930px;width:1080px;height:990px;background:linear-gradient(165deg,#153D8A 0%,#0E2B66 100%);border-radius:56px 56px 0 0;padding:50px 64px 0;color:#fff;z-index:4}
+.l-where{font-size:44px;font-weight:600;color:var(--sky);line-height:56px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.l-price{font-size:138px;font-weight:700;line-height:152px;letter-spacing:-.02em;white-space:nowrap}
+.l-price small{font-size:50px;font-weight:600;letter-spacing:0;color:var(--sky);margin-left:14px}
+.l-chips{margin-top:8px;height:150px;overflow:hidden}
+.chip{display:inline-block;font-size:36px;font-weight:600;padding:12px 24px;margin:0 14px 14px 0;border-radius:40px;background:rgba(255,255,255,.16);white-space:nowrap}
+.l-acc{margin-top:16px;font-size:42px;font-weight:700;line-height:54px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.l-res{margin-top:10px;font-size:33px;line-height:46px;font-weight:400;color:#e4eefb;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+.l-bottom{position:absolute;left:64px;right:64px;bottom:88px;height:236px}
+.l-qr{position:absolute;left:0;top:0;width:236px;height:236px;background:#fff;border-radius:22px;padding:12px}
+.l-qr img{width:100%;height:100%}
+.l-cta{position:absolute;left:272px;top:14px;width:430px}
+.l-cta b{display:block;font-size:40px;font-weight:700;line-height:50px}
+.l-cta span{display:block;margin-top:10px;font-size:30px;line-height:40px;color:var(--sky)}
+.l-logo{position:absolute;right:0;top:20px;width:196px;height:196px;border-radius:12px}
+.l-fine{position:absolute;left:64px;right:64px;bottom:22px;font-size:25px;line-height:32px;color:rgba(255,255,255,.78);display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+
+/* ---------- accueil ---------- */
+.a-top{position:absolute;left:0;top:0;width:1080px;height:860px;background:#fff;text-align:center;padding-top:110px}
+.a-top img{width:520px;height:520px;margin:0 auto;border-radius:14px}
+.a-top h2{margin-top:40px;font-size:104px;font-weight:700;letter-spacing:-.01em;color:var(--blue)}
+.a-bottom{position:absolute;left:0;top:800px;width:1080px;height:1120px;background:linear-gradient(160deg,#153D8A 0%,#0a86c9 70%,#009EE3 120%);border-radius:64px 64px 0 0;padding:84px 70px 0;color:#fff}
+.a-bulle{background:#fff;color:var(--blue);border-radius:56px 56px 56px 0;padding:44px 56px;font-size:70px;font-weight:700;line-height:84px;box-shadow:0 10px 40px rgba(0,0,0,.2)}
+.a-bulle em{font-style:normal;color:var(--cyan)}
+.a-counts{margin-top:64px;height:250px}
+.a-c{float:left;width:452px;height:250px;margin-right:36px;border-radius:32px;background:rgba(255,255,255,.16);padding:34px 20px;text-align:center}
+.a-c:last-child{margin-right:0}
+.a-c b{display:block;font-size:118px;line-height:120px;font-weight:700}
+.a-c span{display:block;margin-top:10px;font-size:42px;font-weight:600;color:var(--sky)}
+.a-open{margin-top:72px;text-align:center;font-size:44px;font-weight:600;line-height:60px}
+.a-open small{display:block;margin-top:8px;font-size:34px;font-weight:400;color:var(--sky)}
+
+/* ---------- métiers / estimation ---------- */
+.m-bg{background:var(--ice)}
+.m-head{position:absolute;left:60px;top:80px;width:960px;background:var(--blue);color:#fff;border-radius:56px 56px 56px 0;padding:44px 56px;font-size:66px;font-weight:700;line-height:80px}
+.m-cards{position:absolute;left:60px;top:400px;width:960px}
+.m-card{position:relative;height:196px;margin-bottom:26px;background:#fff;border-radius:30px;box-shadow:0 8px 28px rgba(21,61,138,.12);padding:28px 40px 0 200px}
+.m-ico{position:absolute;left:36px;top:32px;width:132px;height:132px;border-radius:50%;background:var(--cyan)}
+.m-ico svg{width:132px;height:132px;padding:26px;fill:none;stroke:#fff;stroke-width:3.4;stroke-linecap:round;stroke-linejoin:round}
+.m-card b{display:block;font-size:48px;line-height:58px;font-weight:700}
+.m-card span{display:block;margin-top:6px;font-size:31px;line-height:42px;color:var(--grey);font-weight:400}
+.m-est{position:absolute;left:0;top:1360px;width:1080px;height:560px;background:linear-gradient(160deg,#153D8A 0%,#009EE3 130%);border-radius:64px 64px 0 0;color:#fff;padding:70px 70px 0}
+.m-est h3{font-size:92px;line-height:104px;font-weight:700}
+.m-est p{margin-top:18px;font-size:40px;line-height:54px;color:#e4f3fb;width:580px}
+.m-est .qr{position:absolute;right:70px;top:66px;width:330px;height:330px;background:#fff;border-radius:26px;padding:16px}
+.m-est .qr img{width:100%;height:100%}
+.m-est .qrc{position:absolute;right:70px;top:412px;width:330px;text-align:center;font-size:30px;font-weight:600}
+
+/* ---------- instagram ---------- */
+.i-head{position:absolute;left:0;top:0;width:1080px;height:330px;text-align:center;padding-top:74px}
+.i-head svg{width:96px;height:96px;fill:none;stroke:var(--blue);stroke-width:3;display:inline-block;vertical-align:middle}
+.i-head h2{display:inline-block;vertical-align:middle;margin-left:26px;font-size:80px;font-weight:700}
+.i-head p{margin-top:22px;font-size:44px;font-weight:600;color:var(--cyan)}
+.i-mosaic{position:absolute;left:40px;top:330px;width:1000px;height:1244px}
+.i-cell{position:absolute;overflow:hidden;border-radius:26px;background:var(--ice);box-shadow:0 8px 28px rgba(21,61,138,.18)}
+.i-cell img{position:absolute;left:0;top:0;width:100%;height:100%}
+.i-cell .bg{object-fit:cover;filter:blur(22px);transform:scale(1.25)}
+.i-cell .fg{object-fit:contain}
+.i-brand{background:var(--blue)}
+.i-brand img{left:50%;top:50%;width:300px;height:300px;margin:-150px 0 0 -150px;border-radius:12px}
+.i-foot{position:absolute;left:0;top:1600px;width:1080px;height:320px;background:linear-gradient(160deg,#153D8A 0%,#009EE3 130%);border-radius:56px 56px 0 0;color:#fff;padding:44px 70px 0}
+.i-foot .qr{position:absolute;left:70px;top:38px;width:236px;height:236px;background:#fff;border-radius:22px;padding:12px}
+.i-foot .qr img{width:100%;height:100%}
+.i-foot .t{position:absolute;left:346px;top:58px;width:660px}
+.i-foot .t b{display:block;font-size:52px;line-height:62px;font-weight:700}
+.i-foot .t span{display:block;margin-top:12px;font-size:36px;line-height:48px;color:var(--sky)}
+
+/* ---------- contact ---------- */
+.c-bg{background:linear-gradient(170deg,#153D8A 0%,#0E2B66 100%);color:#fff}
+.c-head{position:absolute;left:70px;top:90px;width:940px}
+.c-head h2{font-size:96px;line-height:108px;font-weight:700}
+.c-head p{margin-top:20px;font-size:44px;line-height:58px;color:var(--sky);font-weight:400}
+.c-tel{position:absolute;left:70px;top:470px;width:940px;background:#fff;color:var(--blue);border-radius:48px 48px 48px 0;padding:34px 50px}
+.c-tel b{display:block;font-size:104px;line-height:116px;font-weight:700;letter-spacing:.01em}
+.c-tel span{display:block;font-size:36px;line-height:48px;color:var(--grey);font-weight:400}
+.c-hours{position:absolute;left:70px;top:800px;width:940px}
+.c-hours h3{font-size:44px;font-weight:700;margin-bottom:18px;color:var(--sky)}
+.c-row{height:66px;line-height:66px;font-size:37px;border-bottom:1px solid rgba(255,255,255,.18);padding:0 20px}
+.c-row b{display:inline-block;width:260px;font-weight:600}
+.c-row.today{background:var(--cyan);border-radius:14px;border-bottom:0;font-weight:700}
+.c-row.closed span{opacity:.75}
+.c-avis{position:absolute;left:0;top:1420px;width:1080px;height:500px;background:#fff;color:var(--blue);border-radius:64px 64px 0 0;padding:60px 70px 0}
+.c-avis .qr{position:absolute;left:70px;top:62px;width:300px;height:300px}
+.c-avis .qr img{width:100%;height:100%}
+.c-avis .t{position:absolute;left:410px;top:74px;width:600px}
+.c-avis .t b{display:block;font-size:56px;line-height:66px;font-weight:700}
+.c-avis .t span{display:block;margin-top:14px;font-size:36px;line-height:48px;color:var(--grey)}
+.c-avis .park{position:absolute;left:70px;right:70px;top:392px;font-size:30px;line-height:40px;color:var(--grey);text-align:center}
+
+/* ---------- attente / debug ---------- */
+#splash{position:absolute;left:0;top:0;width:1080px;height:1920px;background:linear-gradient(160deg,#153D8A,#009EE3 130%);z-index:50;text-align:center;padding-top:660px;color:#fff}
+#splash img{width:420px;height:420px;margin:0 auto;border-radius:12px}
+#splash p{margin-top:50px;font-size:46px;font-weight:600}
+#dbg{position:fixed;left:6px;bottom:6px;z-index:99;background:rgba(0,0,0,.7);color:#0f0;font:12px monospace;padding:6px 8px;display:none;white-space:pre}
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="splash"><img src="img/brand/logo-carre.png" alt=""><p>Laforêt Montauban</p></div>
+</div>
+<div id="dbg"></div>
+<script>
+(function () {
+  'use strict';
+  var W = 1080, H = 1920;
+  var q = new URLSearchParams(location.search);
+  var FAST = q.get('fast') === '1';
+  var DEBUG = q.get('debug') === '1';
+  var ROT = q.get('rot');                 // ex. ?rot=90 ou ?rot=-90 si l'écran affiche la page couchée
+  var ONLY = q.get('slide');              // ex. ?slide=2 : n'affiche que cette page (test)
+  var DUR = { accueil: 9, listing: 14, metiers: 11, insta: 11, contact: 12 };
+  var stage = document.getElementById('stage');
+  var splash = document.getElementById('splash');
+  var dbg = document.getElementById('dbg');
+  var data = null, cycle = 0, current = null, idx = 0, timer = null, planned = [];
+  var loadedAt = Date.now();
+
+  var DAYS = ['Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi'];
+  var ICONS = {
+    house: '<path d="M8 30 32 10l24 20M14 26v26h36V26M26 52V36h12v16"/>',
+    key: '<circle cx="20" cy="32" r="10"/><path d="M30 32h28M50 32v10M42 32v8"/>',
+    clip: '<rect x="14" y="8" width="36" height="48" rx="4"/><path d="M22 22h20M22 32h20M22 42h12"/>',
+    build: '<rect x="16" y="8" width="32" height="48"/><path d="M24 18h4M36 18h4M24 28h4M36 28h4M24 38h4M36 38h4M28 56V46h8v10"/>'
+  };
+
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function nbsp(s) { return String(s).replace(/ /g, ' '); }
+  function eur(n) { return nbsp(Math.round(n).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ')) + ' €'; }
+  function pad(n) { return (n < 10 ? '0' : '') + n; }
+  function pretty(city) {
+    return String(city || '').replace(/ /g, '-').replace(/-(De|Du|Des|La|Le|Les|Sur|Sous|En|Et|Aux?)-/g, function (m) { return m.toLowerCase(); }).replace(/Etienne/g, 'Étienne');
+  }
+  function div(cls, html) { var d = document.createElement('div'); d.className = cls; if (html != null) d.innerHTML = html; return d; }
+  function svg(paths) { return '<svg viewBox="0 0 64 64">' + paths + '</svg>'; }
+
+  /* ---- échelle / rotation ---- */
+  function fit() {
+    var vw = window.innerWidth, vh = window.innerHeight, rot = 0;
+    if (ROT === 'auto') rot = vw > vh ? 90 : 0; else if (ROT) rot = parseInt(ROT, 10) || 0;
+    var sw = rot % 180 ? vh : vw, sh = rot % 180 ? vw : vh;
+    var s = Math.min(sw / W, sh / H);
+    stage.style.transform = 'rotate(' + rot + 'deg) scale(' + s + ')';
+  }
+  window.addEventListener('resize', fit); window.addEventListener('load', fit); fit();
+  setInterval(fit, 20000);            // filet de sécurité si l'écran change de définition après le démarrage
+  setTimeout(fit, 500); setTimeout(fit, 2000);
+
+  /* ---- horaires ---- */
+  function hoursOf(day) { var h = data && data.hours; if (!h) return null; for (var i = 0; i < h.length; i++) if (h[i].day === DAYS[day]) return h[i]; return null; }
+  function toMin(s) { var p = s.split(':'); return parseInt(p[0], 10) * 60 + parseInt(p[1], 10); }
+  function openLabel() {
+    var now = new Date(), d = now.getDay(), m = now.getHours() * 60 + now.getMinutes(), h = hoursOf(d), i;
+    if (!h) return { main: '', sub: '' };
+    for (i = 0; i < h.slots.length; i++) {
+      if (m >= toMin(h.slots[i][0]) && m < toMin(h.slots[i][1])) return { main: 'Ouvert actuellement', sub: 'Jusqu’à ' + h.slots[i][1].replace(':', 'h') };
+    }
+    for (i = 0; i < h.slots.length; i++) if (m < toMin(h.slots[i][0])) return { main: 'Nous vous accueillons aujourd’hui', sub: 'Dès ' + h.slots[i][0].replace(':', 'h') };
+    for (var k = 1; k <= 7; k++) { var nd = (d + k) % 7, nh = hoursOf(nd); if (nh && nh.slots.length) return { main: 'Fermé pour le moment', sub: 'Réouverture ' + (k === 1 ? 'demain' : DAYS[nd].toLowerCase()) + ' à ' + nh.slots[0][0].replace(':', 'h') }; }
+    return { main: '', sub: '' };
+  }
+
+  /* ---- pages ---- */
+  function slideAccueil() {
+    var o = openLabel(), c = data.counts || {};
+    var s = div('slide');
+    s.innerHTML =
+      '<div class="a-top"><img src="img/brand/logo-carre.png" alt=""><h2>Montauban</h2></div>' +
+      '<div class="a-bottom"><div class="a-bulle">Pour avancer,<br>passez par <em>Laforêt</em></div>' +
+      '<div class="a-counts"><div class="a-c"><b>' + esc(c.vente || '') + '</b><span>biens à vendre</span></div>' +
+      '<div class="a-c"><b>' + esc(c.location || '') + '</b><span>biens à louer</span></div></div>' +
+      '<div class="a-open">' + esc(o.main) + '<small>' + esc(o.sub) + '</small></div></div>';
+    return { el: s, dur: DUR.accueil, imgs: ['img/brand/logo-carre.png'] };
+  }
+
+  function slideListing(it) {
+    var rent = it.kind === 'location', s = div('slide'), imgs = [];
+    var chips = String(it.criteria || '').split(', ').filter(function (x) { return x; });
+    if (it.terrain) chips.push('Terrain ' + nbsp(it.terrain) + ' m²');
+    (it.features || []).slice(0, 1).forEach(function (f) { chips.push(f); });
+    chips = chips.slice(0, 4);
+    var price = rent ? eur(it.price) + '<small>/mois CC</small>' : eur(it.price);
+    var fine;
+    if (rent) {
+      var parts = [];
+      if (it.loyer_hc) parts.push('Loyer HC ' + it.loyer_hc.replace(/,00$/, '') + ' € + charges ' + (it.charges || '').replace(/,00$/, '') + ' €');
+      if (it.depot) parts.push('Dépôt de garantie ' + it.depot.replace(/,00$/, '') + ' €');
+      if (it.honoraires) parts.push(it.honoraires);
+      fine = parts.join(' · ');
+    } else fine = it.honoraires || 'Honoraires à la charge du vendeur';
+    var photos = (it.photos || []).map(function (p, i) { imgs.push(p); return '<div class="ph' + (i === 0 ? ' act' : '') + '"><img src="' + esc(p) + '" alt=""></div>'; }).join('');
+    var tags = '<span class="tag' + (rent ? ' rent' : '') + '">' + (rent ? 'À louer' : 'À vendre') + '</span>' +
+      (it.exclusive ? '<span class="tag flag">Exclusivité</span>' : (it.new ? '<span class="tag flag">Nouveauté</span>' : ''));
+    if (it.dpe) imgs.push(it.dpe);
+    s.innerHTML =
+      '<div class="l-photo">' + photos + '</div>' +
+      '<div class="l-tags">' + tags + '</div>' +
+      (it.dpe ? '<div class="l-dpe"><img src="' + esc(it.dpe) + '" alt="DPE"></div>' : '') +
+      '<div class="l-panel">' +
+      '<div class="l-where">' + esc(it.type) + ' · ' + esc(pretty(it.city)) + '</div>' +
+      '<div class="l-price">' + price + '</div>' +
+      '<div class="l-chips">' + chips.map(function (c) { return '<span class="chip">' + esc(c) + '</span>'; }).join('') + '</div>' +
+      (it.accroche ? '<div class="l-acc">' + esc(it.accroche) + '</div>' : '') +
+      '<div class="l-res">' + esc(it.resume) + '</div>' +
+      '<div class="l-bottom"><div class="l-qr"><img src="' + esc(it.qr) + '" alt=""></div>' +
+      '<div class="l-cta"><b>Découvrez l’annonce</b><span>Scannez le code<br>Réf. ' + esc(it.id) + '</span></div>' +
+      '<img class="l-logo" src="img/brand/logo-carre.png" alt=""></div>' +
+      '<div class="l-fine">' + esc(fine) + '</div></div>';
+    imgs.push(it.qr);
+    var n = (it.photos || []).length;
+    return { el: s, dur: DUR.listing, imgs: imgs, photos: n };
+  }
+
+  function slideMetiers() {
+    var items = [
+      ['house', 'Transaction', 'Vendre ou acheter, de l’estimation à l’acte authentique'],
+      ['key', 'Location', 'Trouvez votre logement, ou votre locataire'],
+      ['clip', 'Gestion locative', 'Louez l’esprit tranquille, nous nous occupons de tout'],
+      ['build', 'Syndic de copropriété', 'Un syndic réactif, qui répond vraiment']
+    ];
+    var s = div('slide m-bg');
+    s.innerHTML =
+      '<div class="m-head">Un projet immobilier ?<br>Nous avons la réponse.</div>' +
+      '<div class="m-cards">' + items.map(function (i) {
+        return '<div class="m-card"><div class="m-ico">' + svg(ICONS[i[0]]) + '</div><b>' + i[1] + '</b><span>' + i[2] + '</span></div>';
+      }).join('') + '</div>' +
+      '<div class="m-est"><h3>Estimation<br>gratuite</h3><p>de votre bien à Montauban, à la vente comme à la location</p>' +
+      '<div class="qr"><img src="img/qr/estimer.svg" alt=""></div><div class="qrc">Estimez en ligne</div></div>';
+    return { el: s, dur: DUR.metiers, imgs: ['img/qr/estimer.svg'] };
+  }
+
+  function slideInsta() {
+    var list = (data.insta || []).slice(0, 4), n = list.length, cells = [], i;
+    var MW = 1000, MH = 1244, G = 20, hw = (MW - G) / 2, hh = (MH - G) / 2;
+    if (n === 1) cells = [[0, 0, MW, MH]];
+    else if (n === 2) cells = [[0, 0, hw, MH], [hw + G, 0, hw, MH]];
+    else cells = [[0, 0, hw, hh], [hw + G, 0, hw, hh], [0, hh + G, hw, hh], [hw + G, hh + G, hw, hh]];
+    var mosaic = '';
+    for (i = 0; i < cells.length; i++) {
+      var pos = 'left:' + cells[i][0] + 'px;top:' + cells[i][1] + 'px;width:' + cells[i][2] + 'px;height:' + cells[i][3] + 'px';
+      mosaic += i < n
+        ? '<div class="i-cell" style="' + pos + '"><img class="bg" src="' + esc(list[i]) + '" alt=""><img class="fg" src="' + esc(list[i]) + '" alt=""></div>'
+        : '<div class="i-cell i-brand" style="' + pos + '"><img src="img/brand/logo-carre.png" alt=""></div>';   // tuile marque si < 4 visuels
+    }
+    var s = div('slide');
+    s.innerHTML =
+      '<div class="i-head">' + svg('<rect x="8" y="8" width="48" height="48" rx="14"/><circle cx="32" cy="32" r="11"/><circle cx="47" cy="17" r="2.5" fill="#153D8A" stroke="none"/>') +
+      '<h2>@laforetmontauban</h2><p>Suivez toute notre actualité</p></div>' +
+      '<div class="i-mosaic">' + mosaic + '</div>' +
+      '<div class="i-foot"><div class="qr"><img src="img/qr/instagram.svg" alt=""></div><div class="t"><b>Retrouvez-nous sur Instagram</b><span>Scannez le code pour vous abonner</span></div></div>';
+    return { el: s, dur: DUR.insta, imgs: list.concat(['img/qr/instagram.svg']) };
+  }
+
+  function slideContact() {
+    var today = new Date().getDay(), rows = '';
+    var order = [1, 2, 3, 4, 5, 6, 0];
+    (data.hours || []).length && order.forEach(function (d) {
+      var h = hoursOf(d); if (!h) return;
+      var txt = h.slots.length ? h.slots.map(function (x) { return x[0].replace(':', 'h') + ' – ' + x[1].replace(':', 'h'); }).join('  ·  ') : 'Fermé';
+      rows += '<div class="c-row' + (d === today ? ' today' : '') + (h.slots.length ? '' : ' closed') + '"><b>' + h.day + '</b><span>' + txt + '</span></div>';
+    });
+    var a = data.agency || {};
+    var s = div('slide c-bg');
+    s.innerHTML =
+      '<div class="c-head"><h2>Venez nous<br>rencontrer</h2><p>' + esc(a.address || '') + '</p></div>' +
+      '<div class="c-tel"><b class="nb">' + esc(a.phone || '') + '</b><span>' + esc(a.email || '') + ' · ' + esc(a.web || '') + '</span></div>' +
+      '<div class="c-hours"><h3>Horaires d’ouverture</h3>' + rows + '</div>' +
+      '<div class="c-avis">' + (data.qr_avis ? '<div class="qr"><img src="' + esc(data.qr_avis) + '" alt=""></div>' : '') +
+      '<div class="t"><b>Votre avis compte</b><span>Scannez le code et laissez-nous un avis sur Google</span></div>' +
+      '<div class="park">' + esc(a.parking || '') + '</div></div>';
+    return { el: s, dur: DUR.contact, imgs: data.qr_avis ? [data.qr_avis] : [] };
+  }
+
+  /* ---- déroulé (≈ 10 pages) ---- */
+  function pick(pool, n) {
+    var out = [], m = pool.length; if (!m) return out;
+    n = Math.min(n, m);
+    for (var i = 0; i < n; i++) out.push(pool[(cycle * n + i) % m]);
+    return out;
+  }
+  function plan() {
+    var list = [slideAccueil];
+    pick(data.vente || [], 3).forEach(function (it) { list.push(function () { return slideListing(it); }); });
+    list.push(slideMetiers);
+    pick(data.louer || [], 3).forEach(function (it) { list.push(function () { return slideListing(it); }); });
+    if (data.insta && data.insta.length) list.push(slideInsta);
+    list.push(slideContact);
+    return list;
+  }
+
+  /* ---- affichage ---- */
+  function preload(imgs) { (imgs || []).forEach(function (u) { var i = new Image(); i.src = u; }); }
+  function clearTimers() { if (timer) { clearTimeout(timer); timer = null; } if (current && current.tm) current.tm.forEach(clearInterval); }
+
+  function show(def) {
+    var built = def();
+    preload(built.imgs);
+    var old = current;
+    if (old && old.tm) old.tm.forEach(clearInterval);
+    stage.appendChild(built.el);
+    void built.el.offsetWidth;          // relance la transition
+    built.el.className += ' on';
+    built.tm = [];
+    if (built.photos > 1) {
+      var ph = built.el.querySelectorAll('.ph'), k = 0, step = Math.max(3, Math.floor(built.dur / built.photos)) * 1000;
+      built.tm.push(setInterval(function () {
+        ph[k].className = 'ph'; k = (k + 1) % ph.length; ph[k].className = 'ph act';
+      }, step));
+    }
+    if (old) { old.el.className = old.el.className.replace(' on', ''); setTimeout(function () { if (old.el.parentNode) old.el.parentNode.removeChild(old.el); }, 1500); }
+    current = built;
+    if (splash) { splash.style.transition = 'opacity 1s'; splash.style.opacity = 0; var sp = splash; splash = null; setTimeout(function () { if (sp.parentNode) sp.parentNode.removeChild(sp); }, 1200); }
+    return built.dur;
+  }
+
+  function next() {
+    if (!data) return;
+    if (idx >= planned.length) { cycle++; planned = plan(); idx = 0; }
+    var dur;
+    try { dur = show(planned[ONLY ? (parseInt(ONLY, 10) % planned.length) : idx]); }
+    catch (e) { console.error(e); dur = 3; }
+    idx++;
+    if (DEBUG) dbg.textContent = 'page ' + idx + '/' + planned.length + ' · cycle ' + cycle + '\ndonnées ' + data.generated_at + '\nfenêtre ' + innerWidth + '×' + innerHeight;
+    timer = setTimeout(next, (FAST ? Math.max(2, dur / 5) : dur) * 1000);
+  }
+
+  /* ---- données ---- */
+  function load() {
+    return fetch('data.json?t=' + Date.now(), { cache: 'no-store' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); });
+  }
+  function refresh() {
+    load().then(function (d) { if (!data || d.generated_at !== data.generated_at) { data = d; if (!planned.length) { planned = plan(); } } })
+      .catch(function (e) { console.warn('data.json indisponible, on garde la version en mémoire', e); });
+  }
+
+  function boot() {
+    if (DEBUG) dbg.style.display = 'block';
+    load().then(function (d) { data = d; planned = plan(); idx = 0; next(); })
+      .catch(function () { setTimeout(boot, 30000); });   // reste sur l'écran d'attente Laforêt et réessaie
+    setInterval(refresh, 10 * 60 * 1000);
+    // rechargement complet chaque nuit (libère la mémoire du lecteur, récupère une éventuelle nouvelle version)
+    setInterval(function () {
+      var n = new Date();
+      if (n.getHours() === 4 && Date.now() - loadedAt > 3 * 3600 * 1000) location.reload();
+    }, 5 * 60 * 1000);
+  }
+  boot();
+})();
+</script>
+</body>
+</html>

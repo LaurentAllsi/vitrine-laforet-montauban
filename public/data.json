@@ -1,0 +1,455 @@
+{
+ "generated_at": "2026-09-19T15:06",
+ "vente": [
+  {
+   "id": "52913500",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/maison-7-pieces-52913500",
+   "type": "Maison",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 425000.0,
+   "surface": 250.0,
+   "rooms": "7",
+   "criteria": "250 m², 7 pièces, 5 chambres",
+   "new": true,
+   "exclusive": true,
+   "features": [
+    "Cheminée"
+   ],
+   "accroche": "Quartier prisé de Saint-Michel",
+   "resume": "Laissez-vous séduire par cette magnifique maison des années 30, située dans le très recherché quartier Saint-Michel. Derrière sa façade pleine de caractère, elle a su préserver tout le…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "319",
+   "photos": [
+    "img/52913500/photo0.jpg",
+    "img/52913500/photo1.jpg",
+    "img/52913500/photo2.jpg"
+   ],
+   "dpe": "img/52913500/dpe.svg",
+   "qr": "img/52913500/qr.svg"
+  },
+  {
+   "id": "52930881",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/maison-5-pieces-52930881",
+   "type": "Maison",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 172000.0,
+   "surface": 116.0,
+   "rooms": "5",
+   "criteria": "116 m², 5 pièces, 4 chambres",
+   "new": true,
+   "exclusive": false,
+   "features": [
+    "Garage",
+    "Cheminée"
+   ],
+   "accroche": "",
+   "resume": "Montauban - Centre ville - Bel emplacement au calme au fond d'une impasse avec les commerces et écoles à pieds, le bus de ville, pour cette charmante maison à finir de rénover. En rez de…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "959",
+   "photos": [
+    "img/52930881/photo0.jpg",
+    "img/52930881/photo1.jpg",
+    "img/52930881/photo2.jpg"
+   ],
+   "dpe": "img/52930881/dpe.svg",
+   "qr": "img/52930881/qr.svg"
+  },
+  {
+   "id": "52901515",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/maison-6-pieces-52901515",
+   "type": "Maison",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 300000.0,
+   "surface": 200.0,
+   "rooms": "6",
+   "criteria": "200 m², 6 pièces, 4 chambres",
+   "new": false,
+   "exclusive": true,
+   "features": [
+    "Cheminée"
+   ],
+   "accroche": "",
+   "resume": "Au coeur de Montauban, découvrez Sarrail, une superbe demeure toulousaine de caractère. Idéalement située en centre-ville, cette élégante maison de ville a su préserver tout le charme de…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "136",
+   "photos": [
+    "img/52901515/photo0.jpg",
+    "img/52901515/photo1.jpg",
+    "img/52901515/photo2.jpg"
+   ],
+   "dpe": "img/52901515/dpe.svg",
+   "qr": "img/52901515/qr.svg"
+  },
+  {
+   "id": "52881290",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/saint-etienne-de-tulmont/maison-4-pieces-52881290",
+   "type": "Maison",
+   "city": "Saint Etienne De Tulmont",
+   "zip": "82410",
+   "price": 239200.0,
+   "surface": 89.0,
+   "rooms": "4",
+   "criteria": "89 m², 4 pièces, 3 chambres",
+   "new": false,
+   "exclusive": true,
+   "features": [],
+   "accroche": "",
+   "resume": "Maison de plain-pied située à Saint-Étienne-de-Tulmont, à proximité de tous les commerces et commodités. Elle se compose d'un grand salon-séjour lumineux, d'une cuisine équipée, de trois…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "643",
+   "photos": [
+    "img/52881290/photo0.jpg",
+    "img/52881290/photo1.jpg",
+    "img/52881290/photo2.jpg"
+   ],
+   "dpe": "img/52881290/dpe.svg",
+   "qr": "img/52881290/qr.svg"
+  },
+  {
+   "id": "52777191",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/appartement-4-pieces-52777191",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 170000.0,
+   "surface": 91.0,
+   "rooms": "4",
+   "criteria": "91 m², 4 pièces, 3 chambres",
+   "new": false,
+   "exclusive": true,
+   "features": [],
+   "accroche": "",
+   "resume": "Montauban Centre, au coeur d'un parc arboré, venez découvrir ce bel appartement de 91 M2 avec terrasse et parking. Cet appartement rénové vous propose une grande cuisine équipée ouverte sur…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "",
+   "photos": [
+    "img/52777191/photo0.jpg",
+    "img/52777191/photo1.jpg",
+    "img/52777191/photo2.jpg"
+   ],
+   "dpe": "img/52777191/dpe.svg",
+   "qr": "img/52777191/qr.svg"
+  },
+  {
+   "id": "52738860",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/appartement-3-pieces-52738860",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 159000.0,
+   "surface": 75.0,
+   "rooms": "3",
+   "criteria": "75 m², 3 pièces, 2 chambres",
+   "new": false,
+   "exclusive": true,
+   "features": [],
+   "accroche": "",
+   "resume": "Au coeur de Montauban, découvrez ce magnifique appartement de caractère aux volumes généreux. Il se compose d'un vaste salon-séjour lumineux avec mezzanine, d'une grande cuisine entièrement…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "",
+   "photos": [
+    "img/52738860/photo0.jpg",
+    "img/52738860/photo1.jpg",
+    "img/52738860/photo2.jpg"
+   ],
+   "dpe": "img/52738860/dpe.svg",
+   "qr": "img/52738860/qr.svg"
+  }
+ ],
+ "louer": [
+  {
+   "id": "52930310",
+   "kind": "location",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-3-pieces-52930310",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 780.0,
+   "surface": 59.82,
+   "rooms": "3",
+   "criteria": "60 m², 3 pièces, 2 chambres",
+   "new": true,
+   "exclusive": true,
+   "features": [
+    "Ascenseur",
+    "Balcon"
+   ],
+   "accroche": "",
+   "resume": "Centre ville de Montauban, au 4ème étage avec ascenseur, au sein d'une résidence sécurisée, ce bel appartement très lumineux offre un cadre de vie agréable au coeur de Montauban. Il se…",
+   "loyer_hc": "715,00",
+   "charges": "65,00",
+   "depot": "715,00",
+   "honoraires": "Honoraires locataire : 598,20 € TTC",
+   "dispo": "",
+   "photos": [
+    "img/52930310/photo0.jpg",
+    "img/52930310/photo1.jpg",
+    "img/52930310/photo2.jpg"
+   ],
+   "dpe": "img/52930310/dpe.svg",
+   "qr": "img/52930310/qr.svg"
+  },
+  {
+   "id": "52929827",
+   "kind": "location",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-3-pieces-52929827",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 695.0,
+   "surface": 76.0,
+   "rooms": "3",
+   "criteria": "76 m², 3 pièces, 2 chambres",
+   "new": true,
+   "exclusive": false,
+   "features": [
+    "Ascenseur"
+   ],
+   "accroche": "",
+   "resume": "Idéalement situé en plein centre-ville de Montauban, venez découvrir ce bel appartement T3 de 76 m², situé dans une résidence avec ascenseur. Très lumineux et agréable à vivre, cet…",
+   "loyer_hc": "635,00",
+   "charges": "60,00",
+   "depot": "635,00",
+   "honoraires": "Honoraires locataire : 630,00 € TTC",
+   "dispo": "",
+   "photos": [
+    "img/52929827/photo0.jpg",
+    "img/52929827/photo1.jpg",
+    "img/52929827/photo2.jpg"
+   ],
+   "dpe": "img/52929827/dpe.svg",
+   "qr": "img/52929827/qr.svg"
+  },
+  {
+   "id": "52927788",
+   "kind": "location",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/maison-6-pieces-52927788",
+   "type": "Maison",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 1100.0,
+   "surface": 117.97,
+   "rooms": "6",
+   "criteria": "118 m², 6 pièces, 4 chambres",
+   "new": true,
+   "exclusive": false,
+   "features": [
+    "Garage",
+    "Cheminée"
+   ],
+   "accroche": "",
+   "resume": "Dans un environnement calme et arboré, découvrez cette agréable maison familiale située dans le quartier d'Aussonne, à proximité des accès à la rocade. Implantée sur un beau terrain de 2…",
+   "loyer_hc": "",
+   "charges": "",
+   "depot": "1 100,00",
+   "honoraires": "Honoraires locataire : 1 053,61 € TTC",
+   "dispo": "",
+   "photos": [
+    "img/52927788/photo0.jpg",
+    "img/52927788/photo1.jpg",
+    "img/52927788/photo2.jpg"
+   ],
+   "dpe": "img/52927788/dpe.svg",
+   "qr": "img/52927788/qr.svg"
+  },
+  {
+   "id": "52907306",
+   "kind": "location",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/saint-etienne-de-tulmont/maison-4-pieces-52907306",
+   "type": "Maison",
+   "city": "Saint Etienne De Tulmont",
+   "zip": "82410",
+   "price": 1200.0,
+   "surface": 107.69,
+   "rooms": "4",
+   "criteria": "108 m², 4 pièces, 3 chambres",
+   "new": true,
+   "exclusive": false,
+   "features": [],
+   "accroche": "Maison neuve de plain-pied à Saint-Étienne-de-Tulmont",
+   "resume": "Idéalement située avec un accès rapide à la rocade, venez découvrir cette jolie maison neuve, disponible dès maintenant ! Elle se compose de : Une belle pièce de vie lumineuse ouverte sur…",
+   "loyer_hc": "",
+   "charges": "",
+   "depot": "1 200,00",
+   "honoraires": "Honoraires locataire : 969,21 € TTC",
+   "dispo": "",
+   "photos": [
+    "img/52907306/photo0.jpg",
+    "img/52907306/photo1.jpg",
+    "img/52907306/photo2.jpg"
+   ],
+   "dpe": "img/52907306/dpe.svg",
+   "qr": "img/52907306/qr.svg"
+  },
+  {
+   "id": "52853827",
+   "kind": "location",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-2-pieces-52853827",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 590.0,
+   "surface": 49.82,
+   "rooms": "2",
+   "criteria": "50 m², 2 pièces, 1 chambre",
+   "new": false,
+   "exclusive": true,
+   "features": [
+    "Meublé"
+   ],
+   "accroche": "Hyper-centre, Faubourg du Moustier",
+   "resume": "Au sein d'une petite copropriété, découvrez ce charmant appartement meublé en rez-de-chaussée, entièrement rénové avec des prestations de qualité. Il se compose d'une spacieuse cuisine…",
+   "loyer_hc": "555,00",
+   "charges": "35,00",
+   "depot": "1 110,00",
+   "honoraires": "Honoraires locataire : 473,50 € TTC",
+   "dispo": "",
+   "photos": [
+    "img/52853827/photo0.jpg",
+    "img/52853827/photo1.jpg",
+    "img/52853827/photo2.jpg"
+   ],
+   "dpe": "img/52853827/dpe.svg",
+   "qr": "img/52853827/qr.svg"
+  },
+  {
+   "id": "52562203",
+   "kind": "location",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-5-pieces-52562203",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 1000.0,
+   "surface": 172.54,
+   "rooms": "5",
+   "criteria": "173 m², 5 pièces, 3 chambres",
+   "new": false,
+   "exclusive": true,
+   "features": [],
+   "accroche": "",
+   "resume": "Exclusivité, situé au sein d'un bel hôtel particulier en plein coeur du centre ville, cet appartement de 172m2 en rez de chaussée offre un cadre de vie exceptionnel alliant charme de…",
+   "loyer_hc": "950,00",
+   "charges": "50,00",
+   "depot": "950,00",
+   "honoraires": "Honoraires locataire : 1 217,62 € TTC",
+   "dispo": "",
+   "photos": [
+    "img/52562203/photo0.jpg",
+    "img/52562203/photo1.jpg",
+    "img/52562203/photo2.jpg"
+   ],
+   "dpe": "img/52562203/dpe.svg",
+   "qr": "img/52562203/qr.svg"
+  }
+ ],
+ "counts": {
+  "vente": 66,
+  "location": 42
+ },
+ "agency": {
+  "address": "15 allée de l’Empereur, 82000 Montauban",
+  "phone": "05 63 91 76 26",
+  "email": "montauban@laforet.com",
+  "web": "laforet.com/montauban",
+  "parking": "Parkings Griffoul, Occitan ou Cathédrale à proximité"
+ },
+ "hours": [
+  {
+   "day": "Lundi",
+   "slots": [
+    [
+     "09:00",
+     "12:00"
+    ],
+    [
+     "14:00",
+     "19:00"
+    ]
+   ]
+  },
+  {
+   "day": "Mardi",
+   "slots": [
+    [
+     "09:00",
+     "12:00"
+    ],
+    [
+     "14:00",
+     "19:00"
+    ]
+   ]
+  },
+  {
+   "day": "Mercredi",
+   "slots": [
+    [
+     "09:00",
+     "12:00"
+    ],
+    [
+     "14:00",
+     "19:00"
+    ]
+   ]
+  },
+  {
+   "day": "Jeudi",
+   "slots": [
+    [
+     "09:00",
+     "12:00"
+    ],
+    [
+     "14:00",
+     "19:00"
+    ]
+   ]
+  },
+  {
+   "day": "Vendredi",
+   "slots": [
+    [
+     "09:00",
+     "12:00"
+    ],
+    [
+     "14:00",
+     "19:00"
+    ]
+   ]
+  },
+  {
+   "day": "Samedi",
+   "slots": [
+    [
+     "09:00",
+     "12:00"
+    ],
+    [
+     "14:00",
+     "18:00"
+    ]
+   ]
+  },
+  {
+   "day": "Dimanche",
+   "slots": []
+  }
+ ],
+ "insta": [
+  "img/insta/0.png",
+  "img/insta/1.png",
+  "img/insta/2.png"
+ ],
+ "qr_avis": "img/brand/qr-avis-google.png"
+}

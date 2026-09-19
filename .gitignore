@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+desktop.ini
+# régénérés à chaque exécution (cloud ou local) — seul data.json est versionné
+public/img/[0-9]*/
+public/img/insta/
+public/img/qr/
