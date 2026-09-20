@@ -52,7 +52,21 @@ Publication par GitHub Pages, sans rien à installer ni à payer.
 6. **Connexion automatique au démarrage** (pour repartir seul après une coupure de courant) : `Win + R` → `netplwiz` → décocher *« Les utilisateurs doivent entrer un nom et un mot de passe »* → OK → saisir le mot de passe du compte une fois.
 7. **Redémarrer le PC** pour tout vérifier d'un coup : il doit arriver directement sur la vitrine, sans écran de connexion ni fenêtre visible.
 
-Pour l'éteindre temporairement (maintenance) : `Alt + F4` ferme le navigateur, mais il se relance en quelques secondes — utiliser plutôt le Gestionnaire des tâches (`Ctrl + Alt + Suppr`) pour arrêter le processus `cmd.exe`/`lancer_vitrine` avant de fermer le navigateur.
+### Maintenance du mini-PC
+
+**Arrêter la vitrine pour reprendre la main.** Le script relance le navigateur tant qu'il tourne : il faut arrêter le script *et* le navigateur en même temps. `Win + R`, puis :
+```
+taskkill /f /im cmd.exe /im msedge.exe
+```
+(si `Win + R` ne répond pas : `Ctrl + Alt + Suppr` → Gestionnaire des tâches → *Fichier → Exécuter une nouvelle tâche* → même commande). Pour un arrêt définitif, supprimer `lancer_vitrine.bat` de `shell:startup`. Pour relancer sans redémarrer : double-clic sur le fichier.
+
+**Supprimer la bulle « Traduire cette page ? »** (Edge, une seule fois). Invite de commandes **en administrateur** (menu Démarrer → taper `cmd` → clic droit → *Exécuter en tant qu'administrateur*) :
+```
+reg add "HKLM\SOFTWARE\Policies\Microsoft\Edge" /v TranslateEnabled /t REG_DWORD /d 0 /f
+```
+puis relancer la vitrine. Contrôle : `edge://policy` doit lister *TranslateEnabled = 0*. Avec Chrome : `HKLM\SOFTWARE\Policies\Google\Chrome`, même valeur.
+
+**Prise en main à distance.** Ne pas utiliser le Bureau à distance de Windows (RDP) : il verrouille la session affichée à l'écran et la vitrine disparaîtrait. Utiliser un outil qui partage la session en cours (RustDesk, Chrome Remote Desktop), installé comme service avec accès sans surveillance et mot de passe fort.
 
 **Solutions de repli**, si ce PC devait être remplacé un jour :
 - Un petit lecteur HDMI (Fire TV Stick, Raspberry Pi, mini-PC) avec un navigateur en kiosque — même principe.
