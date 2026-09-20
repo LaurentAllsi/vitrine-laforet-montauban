@@ -71,7 +71,7 @@ puis relancer la vitrine. Contrôle : `edge://policy` doit lister *TranslateEnab
 À faire **pendant que le mini-PC est encore à portée de main** (clavier + écran) :
 1. Arrêter la vitrine : `Win + R` → `taskkill /f /im cmd.exe /im msedge.exe`.
 2. Télécharger RustDesk pour Windows sur https://rustdesk.com (version 64 bits `x86_64`, ou `x86` si *Paramètres → Système → Informations* indique un système 32 bits).
-3. Lancer l'installeur et choisir **Installer** (pas « exécuter sans installer ») : c'est ce qui crée le service qui démarre avec Windows, avant toute ouverture de session. Accepter l'invite d'administrateur.
+3. Lancer le fichier `.exe` (l'avertissement Windows « Run / Don't run » = **Run**). RustDesk s'ouvre alors en mode *portable*, sans service : il faut ensuite cliquer sur le bouton **Install / Installer** (bandeau d'avertissement rose sous l'ID, ou barre latérale gauche), garder les options par défaut et accepter l'invite d'administrateur. C'est cette étape qui crée le service qui démarre avec Windows, avant toute ouverture de session. Contrôle : `services.msc` doit lister « RustDesk Service » (En cours d'exécution, Automatique).
 4. Dans RustDesk, définir un **mot de passe permanent** (menu ⋮ à côté du mot de passe, ou *Paramètres → Sécurité*) : long (16 caractères ou plus), unique, à ranger dans un gestionnaire de mots de passe. Noter l'**ID** affiché (9 à 10 chiffres).
 5. Vérifier dans *Paramètres* que le **service est activé** (l'intitulé varie selon la version).
 6. Sur votre PC : installer RustDesk, saisir l'ID du mini-PC, puis le mot de passe permanent.
