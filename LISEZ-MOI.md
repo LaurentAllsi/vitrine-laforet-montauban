@@ -30,13 +30,34 @@ Dépôt GitHub : https://github.com/LaurentAllsi/vitrine-laforet-montauban
 Adresse à saisir dans l'écran : **https://laurentallsi.github.io/vitrine-laforet-montauban/**
 Publication par GitHub Pages, sans rien à installer ni à payer.
 
-### 3. Afficher la vitrine sur l'écran — ATTENTION
-**L'URL Launcher intégré Samsung ne sait pas afficher une simple page web.** « Install Web App » attend un dossier contenant un `sssp_config.xml` et une application Tizen `.wgt` **signée avec un certificat Samsung** (test réalisé le 19/09/2026 : google.com, neverssl.com et la vitrine donnent tous « impossible de télécharger l'application Web »). Ne pas insister avec cette méthode.
+### 3. Afficher la vitrine sur l'écran
 
-Voies possibles :
-1. **Petit lecteur branché en HDMI** (ancien mini-PC, Fire TV Stick, Raspberry Pi, mini-PC Windows) qui ouvre la vitrine en plein écran (navigateur en mode kiosque). Aucune modification de la vitrine. Portrait : rotation dans le lecteur (Windows) ou par l'écran (`MENU → OnScreen Display → Display Orientation → Source Content Orientation → Portrait`) avec `?rot=90` ou `?rot=-90` dans l'adresse.
-2. **Vidéo / images sur clé USB** lues par MagicInfo Lite (gratuit, mise à jour manuelle).
-3. **Service d'affichage dynamique** dont le lecteur est déjà signé pour Samsung (abonnement).
+**L'URL Launcher intégré Samsung ne sait pas afficher une simple page web.** « Install Web App » attend un dossier contenant un `sssp_config.xml` et une application Tizen `.wgt` **signée avec un certificat Samsung** (test réalisé le 19/09/2026 : google.com, neverssl.com et la vitrine donnent tous « impossible de télécharger l'application Web »). Ne pas insister avec cette méthode, ni avec « Install from USB Device » (même paquet requis).
+
+**Solution retenue : l'ancien mini-PC, branché en HDMI**, avec un navigateur en plein écran (mode kiosque) qui ouvre la vitrine. Remis à zéro le 20/09/2026 (Windows 10 Entreprise 2016 LTSB, build 1607) pour repartir sans le logiciel de l'ancien prestataire.
+
+**Important — navigateur.** Le Edge fourni par défaut sur cette version de Windows (« Edge Legacy ») ne comprend pas les couleurs de la vitrine (propriété CSS `var()`, arrivée avec Edge 15 / 2017). Installer l'un des deux, tous les deux gratuits et à jour automatiquement :
+- [Microsoft Edge (nouvelle version)](https://www.microsoft.com/edge) — recommandé, déjà pensé pour ce genre d'usage.
+- [Google Chrome](https://www.google.com/chrome/)
+
+**Mise en place, dans l'ordre :**
+
+1. **Installer** Edge ou Chrome (lien ci-dessus).
+2. **Copier `pc-windows\lancer_vitrine.bat`** (dans ce dépôt) sur le mini-PC. Le plus simple : sur le mini-PC, ouvrir cette adresse dans le navigateur et l'enregistrer :
+   `https://raw.githubusercontent.com/LaurentAllsi/vitrine-laforet-montauban/main/pc-windows/lancer_vitrine.bat`
+   Ce script ouvre la vitrine en plein écran et **la relance automatiquement si elle se ferme ou plante**.
+3. **Le placer dans le dossier de démarrage de Windows** : `Win + R` → taper `shell:startup` → Entrée → coller le fichier `.bat` dans ce dossier.
+4. **Orientation portrait** : clic droit sur le bureau → *Paramètres d'affichage* → *Orientation* → **Portrait**. Si l'écran affiche alors la vitrine couchée, modifier plutôt l'adresse dans `lancer_vitrine.bat` (ajouter `?rot=90` ou `?rot=-90` juste après `.github.io/`) et remettre l'orientation Windows en Paysage.
+5. **Empêcher la mise en veille** : *Paramètres → Système → Alimentation et mise en veille* → écran et veille sur **Jamais**.
+6. **Connexion automatique au démarrage** (pour repartir seul après une coupure de courant) : `Win + R` → `netplwiz` → décocher *« Les utilisateurs doivent entrer un nom et un mot de passe »* → OK → saisir le mot de passe du compte une fois.
+7. **Redémarrer le PC** pour tout vérifier d'un coup : il doit arriver directement sur la vitrine, sans écran de connexion ni fenêtre visible.
+
+Pour l'éteindre temporairement (maintenance) : `Alt + F4` ferme le navigateur, mais il se relance en quelques secondes — utiliser plutôt le Gestionnaire des tâches (`Ctrl + Alt + Suppr`) pour arrêter le processus `cmd.exe`/`lancer_vitrine` avant de fermer le navigateur.
+
+**Solutions de repli**, si ce PC devait être remplacé un jour :
+- Un petit lecteur HDMI (Fire TV Stick, Raspberry Pi, mini-PC) avec un navigateur en kiosque — même principe.
+- Vidéo / images sur clé USB lues par MagicInfo Lite intégré à l'écran (gratuit, mise à jour manuelle).
+- Un service d'affichage dynamique dont le lecteur est déjà signé pour Samsung (abonnement).
 
 ### 4. Mise à jour automatique (dans le cloud, PC éteint)
 Le workflow GitHub Actions (`.github/workflows/vitrine.yml`) s'exécute **chaque jour vers 6 h 30 et 14 h 30** : il relit laforet.com/montauban, régénère les données et republie. Suivi : onglet *Actions* du dépôt ; lancement immédiat : *Run workflow*.
@@ -58,5 +79,6 @@ Prix, honoraires (vendeur ou locataire), dépôt de garantie et **DPE** sont rep
 | `public/index.html` | Lecteur affiché sur l'écran |
 | `public/data.json`, `public/img/` | Données et images générées (ne pas éditer à la main) |
 | `instagram/` | Vos visuels à afficher |
+| `pc-windows/lancer_vitrine.bat` | Lance la vitrine en plein écran sur le mini-PC, avec relance automatique |
 
 Charte : Laforêt 2026 (bleu #153D8A, cyan #009EE3, police Lexend, bulle à pointe bas-gauche).
