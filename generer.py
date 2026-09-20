@@ -15,6 +15,7 @@ import html
 import json
 import re
 import shutil
+import subprocess
 import sys
 import time
 import urllib.request
@@ -263,6 +264,19 @@ def scrape_hours():
 
 
 # ----------------------------------------------------------------------------- instagram
+def added_at(f):
+    """Date d'ajout d'un visuel : dernier commit git (fiable dans le cloud, où tous les fichiers
+    ont la même date de fichier) ; à défaut la date du fichier (dossier local pas encore publié)."""
+    try:
+        out = subprocess.run(["git", "log", "-1", "--format=%ct", "--", str(f)], cwd=ROOT,
+                             capture_output=True, text=True, timeout=20).stdout.strip()
+        if out:
+            return int(out)
+    except Exception:  # noqa: BLE001
+        pass
+    return int(f.stat().st_mtime)
+
+
 def collect_instagram():
     out = []
     dest = IMG / "insta"
@@ -274,7 +288,7 @@ def collect_instagram():
             pass
     if INSTA_DIR.exists():
         files = [f for f in INSTA_DIR.iterdir() if f.suffix.lower() in (".jpg", ".jpeg", ".png", ".webp")]
-        files.sort(key=lambda f: f.stat().st_mtime, reverse=True)
+        files.sort(key=lambda f: (added_at(f), f.name), reverse=True)   # les plus récemment ajoutés d'abord
         for n, f in enumerate(files[:INSTA_MAX]):
             shutil.copy(f, dest / f"{n}{f.suffix.lower()}")
             out.append(f"img/insta/{n}{f.suffix.lower()}")
