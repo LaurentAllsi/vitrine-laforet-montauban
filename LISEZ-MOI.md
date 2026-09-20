@@ -66,7 +66,20 @@ reg add "HKLM\SOFTWARE\Policies\Microsoft\Edge" /v TranslateEnabled /t REG_DWORD
 ```
 puis relancer la vitrine. Contrôle : `edge://policy` doit lister *TranslateEnabled = 0*. Avec Chrome : `HKLM\SOFTWARE\Policies\Google\Chrome`, même valeur.
 
-**Prise en main à distance.** Ne pas utiliser le Bureau à distance de Windows (RDP) : il verrouille la session affichée à l'écran et la vitrine disparaîtrait. Utiliser un outil qui partage la session en cours (RustDesk, Chrome Remote Desktop), installé comme service avec accès sans surveillance et mot de passe fort.
+**Prise en main à distance (RustDesk).** Ne pas utiliser le Bureau à distance de Windows (RDP) : il verrouille la session affichée à l'écran et la vitrine disparaîtrait. RustDesk partage la session en cours.
+
+À faire **pendant que le mini-PC est encore à portée de main** (clavier + écran) :
+1. Arrêter la vitrine : `Win + R` → `taskkill /f /im cmd.exe /im msedge.exe`.
+2. Télécharger RustDesk pour Windows sur https://rustdesk.com (version 64 bits `x86_64`, ou `x86` si *Paramètres → Système → Informations* indique un système 32 bits).
+3. Lancer l'installeur et choisir **Installer** (pas « exécuter sans installer ») : c'est ce qui crée le service qui démarre avec Windows, avant toute ouverture de session. Accepter l'invite d'administrateur.
+4. Dans RustDesk, définir un **mot de passe permanent** (menu ⋮ à côté du mot de passe, ou *Paramètres → Sécurité*) : long (16 caractères ou plus), unique, à ranger dans un gestionnaire de mots de passe. Noter l'**ID** affiché (9 à 10 chiffres).
+5. Vérifier dans *Paramètres* que le **service est activé** (l'intitulé varie selon la version).
+6. Sur votre PC : installer RustDesk, saisir l'ID du mini-PC, puis le mot de passe permanent.
+7. Relancer la vitrine (double-clic sur `lancer_vitrine.bat`), **redémarrer le mini-PC sans y toucher**, attendre 2 à 3 minutes, puis vous connecter depuis votre PC : vous devez voir la vitrine.
+
+Une fois connecté : bouton *Actions → Insérer Ctrl+Alt+Suppr* pour atteindre le Gestionnaire des tâches, ou `Win + R` puis la commande `taskkill` ci-dessus pour reprendre la main.
+
+Si RustDesk refuse de démarrer sur cette vieille version de Windows : essayer la version 1.1.9 (page *Releases* du projet sur GitHub), sinon Chrome Remote Desktop.
 
 **Solutions de repli**, si ce PC devait être remplacé un jour :
 - Un petit lecteur HDMI (Fire TV Stick, Raspberry Pi, mini-PC) avec un navigateur en kiosque — même principe.
