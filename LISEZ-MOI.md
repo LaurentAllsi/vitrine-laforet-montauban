@@ -47,7 +47,11 @@ Publication par GitHub Pages, sans rien à installer ni à payer.
    `https://raw.githubusercontent.com/LaurentAllsi/vitrine-laforet-montauban/main/pc-windows/lancer_vitrine.bat`
    Ce script ouvre la vitrine en plein écran et **la relance automatiquement si elle se ferme ou plante**.
 3. **Le placer dans le dossier de démarrage de Windows** : `Win + R` → taper `shell:startup` → Entrée → coller le fichier `.bat` dans ce dossier.
-4. **Orientation portrait** : clic droit sur le bureau → *Paramètres d'affichage* → *Orientation* → **Portrait**. Si l'écran affiche alors la vitrine couchée, modifier plutôt l'adresse dans `lancer_vitrine.bat` (ajouter `?rot=90` ou `?rot=-90` juste après `.github.io/`) et remettre l'orientation Windows en Paysage.
+4. **Orientation portrait — la rotation ne doit se faire qu'à UN seul endroit.** Réglage retenu : **Windows tourne, l'écran Samsung reste en paysage.**
+   - Windows : clic droit sur le bureau → *Paramètres d'affichage* → *Orientation* → **Portrait** (ou *Portrait (retourné)* si l'image est à l'envers), résolution 1920×1080.
+   - Samsung : `MENU → OnScreen Display → Display Orientation → Source Content Orientation` → **Landscape** (manuel p. 67).
+   - **Piège (constaté le 21/09/2026)** : si l'écran est en *Portrait* alors que Windows est en paysage, l'écran étire le cadre paysage en portrait : QR code écrasé, colonne étroite au centre. Vérification rapide : dans RustDesk, la vitrine doit apparaître **en portrait** ; si elle apparaît dans un cadre paysage avec des bandes de chaque côté, la rotation n'est pas faite par Windows.
+   - `?rot=90` dans l'adresse n'est à utiliser qu'en dernier recours.
 5. **Empêcher la mise en veille** : *Paramètres → Système → Alimentation et mise en veille* → écran et veille sur **Jamais**.
 6. **Connexion automatique au démarrage** (pour repartir seul après une coupure de courant) : `Win + R` → `netplwiz` → décocher *« Les utilisateurs doivent entrer un nom et un mot de passe »* → OK → saisir le mot de passe du compte une fois.
 7. **Redémarrer le PC** pour tout vérifier d'un coup : il doit arriver directement sur la vitrine, sans écran de connexion ni fenêtre visible.
