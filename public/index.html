@@ -177,6 +177,13 @@ img{display:block}
   window.addEventListener('resize', fit); window.addEventListener('load', fit); fit();
   setInterval(fit, 20000);            // filet de sécurité si l'écran change de définition après le démarrage
   setTimeout(fit, 500); setTimeout(fit, 2000);
+  // Si la taille de l'écran/fenêtre change après le démarrage (écran rallumé, rotation portrait appliquée
+  // en retard par Windows…), l'image déjà dessinée peut être étirée : on recharge la page pour la redessiner.
+  var bootAt = Date.now(), sizeAtBoot = innerWidth + 'x' + innerHeight + '/' + screen.width + 'x' + screen.height;
+  setInterval(function () {
+    var now = innerWidth + 'x' + innerHeight + '/' + screen.width + 'x' + screen.height;
+    if (now !== sizeAtBoot && Date.now() - bootAt > (FAST ? 3000 : 30000)) location.reload();
+  }, 10000);
 
   /* ---- horaires ---- */
   function hoursOf(day) { var h = data && data.hours; if (!h) return null; for (var i = 0; i < h.length; i++) if (h[i].day === DAYS[day]) return h[i]; return null; }

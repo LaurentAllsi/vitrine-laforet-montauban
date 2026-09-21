@@ -6,6 +6,10 @@ REM
 REM Si l'ecran affiche la page couchee, ajouter ?rot=90 (ou ?rot=-90) a la fin de
 REM l'adresse ci-dessous.
 
+REM Attend que Windows ait fini d'appliquer l'ecran (portrait) et que l'ecran soit allume,
+REM sinon le navigateur peut demarrer dans un mauvais mode et afficher une image etiree.
+timeout /t 30 /nobreak >nul
+
 set "URL=https://laurentallsi.github.io/vitrine-laforet-montauban/"
 set "BROWSER="
 
