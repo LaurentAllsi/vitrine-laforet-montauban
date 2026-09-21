@@ -56,6 +56,14 @@ Publication par GitHub Pages, sans rien à installer ni à payer.
 6. **Connexion automatique au démarrage** (pour repartir seul après une coupure de courant) : `Win + R` → `netplwiz` → décocher *« Les utilisateurs doivent entrer un nom et un mot de passe »* → OK → saisir le mot de passe du compte une fois.
 7. **Redémarrer le PC** pour tout vérifier d'un coup : il doit arriver directement sur la vitrine, sans écran de connexion ni fenêtre visible.
 
+### Redémarrage automatique après une coupure de courant
+
+Deux appareils doivent repartir seuls, chacun avec son propre réglage :
+
+1. **Mini-PC — BIOS.** Redémarrer en appuyant plusieurs fois sur `Suppr` (ou `F2`, `Échap`, `F10`, `F12` selon le modèle) pour ouvrir le BIOS (clavier branché sur le boîtier, RustDesk ne donne pas accès au BIOS). Chercher l'option de reprise après coupure et la mettre sur **Allumé** : elle s'appelle *Restore on AC Power Loss*, *After Power Failure*, *AC Back*, *State After G3* ou *Power On after Power Failure*, valeur *Power On* / *Always On* / *S0 State* (pas *Last State* ni *Power Off*). Enregistrer et quitter (`F10`). Repli si l'option n'existe pas : *RTC Alarm / Power On by RTC* → allumage quotidien à heure fixe.
+2. **Écran Samsung.** `MENU → System → Power Control → Auto Power On` → **On** (manuel p. 88) : l'écran s'allume dès qu'il est rebranché. Si, au retour du courant, il reste sur une autre entrée que HDMI, régler `MENU → System → Auto Source Switching` (manuel p. 87).
+3. **Test réel** : débrancher les deux appareils 10 secondes, rebrancher, ne toucher à rien. La vitrine doit s'afficher seule en 2 à 3 minutes, en portrait et en plein écran.
+
 ### Maintenance du mini-PC
 
 **Arrêter la vitrine pour reprendre la main.** Le script relance le navigateur tant qu'il tourne : il faut arrêter le script *et* le navigateur en même temps. `Win + R`, puis :
