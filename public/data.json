@@ -1,6 +1,34 @@
 {
- "generated_at": "2026-09-25T09:43",
+ "generated_at": "2026-09-25T17:27",
  "vente": [
+  {
+   "id": "52608366",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/maison-4-pieces-52608366",
+   "type": "Maison",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 260800.0,
+   "surface": 112.64,
+   "rooms": "4",
+   "criteria": "113 m², 4 pièces, 3 chambres",
+   "new": true,
+   "exclusive": true,
+   "features": [
+    "Cheminée"
+   ],
+   "accroche": "",
+   "resume": "Venez découvrir cette charmante maison de plain-pied, entièrement rénovée avec goût, située dans le quartier recherché de Falguières à Montauban. Elle offre une agréable pièce de vie de…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "1000",
+   "photos": [
+    "img/52608366/photo0.jpg",
+    "img/52608366/photo1.jpg",
+    "img/52608366/photo2.jpg"
+   ],
+   "dpe": "img/52608366/dpe.svg",
+   "qr": "img/52608366/qr.svg"
+  },
   {
    "id": "21525155",
    "kind": "vente",
@@ -139,32 +167,6 @@
    ],
    "dpe": "img/52901515/dpe.svg",
    "qr": "img/52901515/qr.svg"
-  },
-  {
-   "id": "52881290",
-   "kind": "vente",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/saint-etienne-de-tulmont/maison-4-pieces-52881290",
-   "type": "Maison",
-   "city": "Saint Etienne De Tulmont",
-   "zip": "82410",
-   "price": 239200.0,
-   "surface": 89.0,
-   "rooms": "4",
-   "criteria": "89 m², 4 pièces, 3 chambres",
-   "new": false,
-   "exclusive": true,
-   "features": [],
-   "accroche": "",
-   "resume": "Maison de plain-pied située à Saint-Étienne-de-Tulmont, à proximité de tous les commerces et commodités. Elle se compose d'un grand salon-séjour lumineux, d'une cuisine équipée, de trois…",
-   "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "643",
-   "photos": [
-    "img/52881290/photo0.jpg",
-    "img/52881290/photo1.jpg",
-    "img/52881290/photo2.jpg"
-   ],
-   "dpe": "img/52881290/dpe.svg",
-   "qr": "img/52881290/qr.svg"
   }
  ],
  "louer": [
@@ -356,7 +358,7 @@
   }
  ],
  "counts": {
-  "vente": 68,
+  "vente": 70,
   "location": 40
  },
  "agency": {
