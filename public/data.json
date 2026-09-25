@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T17:27",
+ "generated_at": "2026-09-25T09:43",
  "vente": [
   {
    "id": "21525155",
@@ -55,6 +55,34 @@
    ],
    "dpe": "img/52930881/dpe.svg",
    "qr": "img/52930881/qr.svg"
+  },
+  {
+   "id": "52898850",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/maison-4-pieces-52898850",
+   "type": "Maison",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 182000.0,
+   "surface": 81.5,
+   "rooms": "4",
+   "criteria": "82 m², 4 pièces, 3 chambres",
+   "new": true,
+   "exclusive": false,
+   "features": [
+    "Cheminée"
+   ],
+   "accroche": "",
+   "resume": "Situé dans un environnement résidentiel calme, cette maison de plain-pied de 81.50 m2 offre une belle opportunité. Fonctionnelle et lumineuse, elle comprend une entrée, une cuisine…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "349",
+   "photos": [
+    "img/52898850/photo0.jpg",
+    "img/52898850/photo1.jpg",
+    "img/52898850/photo2.jpg"
+   ],
+   "dpe": "img/52898850/dpe.svg",
+   "qr": "img/52898850/qr.svg"
   },
   {
    "id": "52913500",
@@ -137,32 +165,6 @@
    ],
    "dpe": "img/52881290/dpe.svg",
    "qr": "img/52881290/qr.svg"
-  },
-  {
-   "id": "52777191",
-   "kind": "vente",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/appartement-4-pieces-52777191",
-   "type": "Appartement",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 170000.0,
-   "surface": 91.0,
-   "rooms": "4",
-   "criteria": "91 m², 4 pièces, 3 chambres",
-   "new": false,
-   "exclusive": true,
-   "features": [],
-   "accroche": "",
-   "resume": "Montauban Centre, au coeur d'un parc arboré, venez découvrir ce bel appartement de 91 M2 avec terrasse et parking. Cet appartement rénové vous propose une grande cuisine équipée ouverte sur…",
-   "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "",
-   "photos": [
-    "img/52777191/photo0.jpg",
-    "img/52777191/photo1.jpg",
-    "img/52777191/photo2.jpg"
-   ],
-   "dpe": "img/52777191/dpe.svg",
-   "qr": "img/52777191/qr.svg"
   }
  ],
  "louer": [
@@ -355,7 +357,7 @@
  ],
  "counts": {
   "vente": 68,
-  "location": 41
+  "location": 40
  },
  "agency": {
   "address": "15 allée de l’Empereur, 82000 Montauban",
