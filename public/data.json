@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T17:27",
+ "generated_at": "2026-09-26T09:27",
  "vente": [
   {
    "id": "52608366",
@@ -113,6 +113,32 @@
    "qr": "img/52898850/qr.svg"
   },
   {
+   "id": "52282573",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/appartement-4-pieces-52282573",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 124500.0,
+   "surface": 126.0,
+   "rooms": "4",
+   "criteria": "126 m², 4 pièces, 3 chambres",
+   "new": true,
+   "exclusive": false,
+   "features": [],
+   "accroche": "",
+   "resume": "Situé en plein coeur du centre-ville de Montauban, au 2? et dernier étage d'un immeuble, découvrez cet appartement de 126 m² Carrez offrant de beaux volumes. Il se compose d'un grand…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "",
+   "photos": [
+    "img/52282573/photo0.jpg",
+    "img/52282573/photo1.jpg",
+    "img/52282573/photo2.jpg"
+   ],
+   "dpe": "img/52282573/dpe.svg",
+   "qr": "img/52282573/qr.svg"
+  },
+  {
    "id": "52913500",
    "kind": "vente",
    "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/maison-7-pieces-52913500",
@@ -139,34 +165,6 @@
    ],
    "dpe": "img/52913500/dpe.svg",
    "qr": "img/52913500/qr.svg"
-  },
-  {
-   "id": "52901515",
-   "kind": "vente",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/maison-6-pieces-52901515",
-   "type": "Maison",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 300000.0,
-   "surface": 200.0,
-   "rooms": "6",
-   "criteria": "200 m², 6 pièces, 4 chambres",
-   "new": false,
-   "exclusive": true,
-   "features": [
-    "Cheminée"
-   ],
-   "accroche": "",
-   "resume": "Au coeur de Montauban, découvrez Sarrail, une superbe demeure toulousaine de caractère. Idéalement située en centre-ville, cette élégante maison de ville a su préserver tout le charme de…",
-   "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "136",
-   "photos": [
-    "img/52901515/photo0.jpg",
-    "img/52901515/photo1.jpg",
-    "img/52901515/photo2.jpg"
-   ],
-   "dpe": "img/52901515/dpe.svg",
-   "qr": "img/52901515/qr.svg"
   }
  ],
  "louer": [
