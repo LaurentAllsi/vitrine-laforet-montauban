@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T19:47",
+ "generated_at": "2026-09-29T10:50",
  "vente": [
   {
    "id": "52608366",
@@ -263,38 +263,6 @@
    "qr": "img/52929827/qr.svg"
   },
   {
-   "id": "52927788",
-   "kind": "location",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/maison-6-pieces-52927788",
-   "type": "Maison",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 1100.0,
-   "surface": 117.97,
-   "rooms": "6",
-   "criteria": "118 m², 6 pièces, 4 chambres",
-   "new": true,
-   "exclusive": false,
-   "features": [
-    "Garage",
-    "Cheminée"
-   ],
-   "accroche": "",
-   "resume": "Dans un environnement calme et arboré, découvrez cette agréable maison familiale située dans le quartier d'Aussonne, à proximité des accès à la rocade. Implantée sur un beau terrain de 2…",
-   "loyer_hc": "",
-   "charges": "",
-   "depot": "1 100,00",
-   "honoraires": "Honoraires locataire : 1 053,61 € TTC",
-   "dispo": "",
-   "photos": [
-    "img/52927788/photo0.jpg",
-    "img/52927788/photo1.jpg",
-    "img/52927788/photo2.jpg"
-   ],
-   "dpe": "img/52927788/dpe.svg",
-   "qr": "img/52927788/qr.svg"
-  },
-  {
    "id": "52853827",
    "kind": "location",
    "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-2-pieces-52853827",
@@ -353,6 +321,37 @@
    ],
    "dpe": "img/52562203/dpe.svg",
    "qr": "img/52562203/qr.svg"
+  },
+  {
+   "id": "21542626",
+   "kind": "location",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-2-pieces-21542626",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 590.0,
+   "surface": 41.58,
+   "rooms": "2",
+   "criteria": "42 m², 2 pièces, 1 chambre",
+   "new": false,
+   "exclusive": true,
+   "features": [
+    "Meublé"
+   ],
+   "accroche": "",
+   "resume": "À découvrir : charmant appartement T2 meublé en rez-de-chaussée, entièrement rénové, situé à proximité immédiate de toutes les commodités.",
+   "loyer_hc": "570,00",
+   "charges": "20,00",
+   "depot": "1 140,00",
+   "honoraires": "Honoraires locataire : 415,80 € TTC",
+   "dispo": "",
+   "photos": [
+    "img/21542626/photo0.jpg",
+    "img/21542626/photo1.jpg",
+    "img/21542626/photo2.jpg"
+   ],
+   "dpe": "img/21542626/dpe.svg",
+   "qr": "img/21542626/qr.svg"
   }
  ],
  "counts": {
