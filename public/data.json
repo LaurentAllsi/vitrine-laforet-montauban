@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T18:12",
+ "generated_at": "2026-09-30T10:37",
  "vente": [
   {
    "id": "52608366",
@@ -54,35 +54,6 @@
    ],
    "dpe": "img/21525155/dpe.svg",
    "qr": "img/21525155/qr.svg"
-  },
-  {
-   "id": "52930881",
-   "kind": "vente",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/maison-5-pieces-52930881",
-   "type": "Maison",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 172000.0,
-   "surface": 116.0,
-   "rooms": "5",
-   "criteria": "116 m², 5 pièces, 4 chambres",
-   "new": true,
-   "exclusive": false,
-   "features": [
-    "Garage",
-    "Cheminée"
-   ],
-   "accroche": "",
-   "resume": "Montauban - Centre ville - Bel emplacement au calme au fond d'une impasse avec les commerces et écoles à pieds, le bus de ville, pour cette charmante maison à finir de rénover. En rez de…",
-   "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "959",
-   "photos": [
-    "img/52930881/photo0.jpg",
-    "img/52930881/photo1.jpg",
-    "img/52930881/photo2.jpg"
-   ],
-   "dpe": "img/52930881/dpe.svg",
-   "qr": "img/52930881/qr.svg"
   },
   {
    "id": "52898850",
@@ -165,6 +136,34 @@
    ],
    "dpe": "img/52913500/dpe.svg",
    "qr": "img/52913500/qr.svg"
+  },
+  {
+   "id": "52901515",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/maison-6-pieces-52901515",
+   "type": "Maison",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 300000.0,
+   "surface": 200.0,
+   "rooms": "6",
+   "criteria": "200 m², 6 pièces, 4 chambres",
+   "new": false,
+   "exclusive": true,
+   "features": [
+    "Cheminée"
+   ],
+   "accroche": "",
+   "resume": "Au coeur de Montauban, découvrez Sarrail, une superbe demeure toulousaine de caractère. Idéalement située en centre-ville, cette élégante maison de ville a su préserver tout le charme de…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "136",
+   "photos": [
+    "img/52901515/photo0.jpg",
+    "img/52901515/photo1.jpg",
+    "img/52901515/photo2.jpg"
+   ],
+   "dpe": "img/52901515/dpe.svg",
+   "qr": "img/52901515/qr.svg"
   }
  ],
  "louer": [
@@ -179,7 +178,7 @@
    "surface": 59.82,
    "rooms": "3",
    "criteria": "60 m², 3 pièces, 2 chambres",
-   "new": true,
+   "new": false,
    "exclusive": true,
    "features": [
     "Ascenseur",
@@ -199,68 +198,6 @@
    ],
    "dpe": "img/52930310/dpe.svg",
    "qr": "img/52930310/qr.svg"
-  },
-  {
-   "id": "52941075",
-   "kind": "location",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-3-pieces-52941075",
-   "type": "Appartement",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 650.0,
-   "surface": 55.6,
-   "rooms": "3",
-   "criteria": "56 m², 3 pièces, 2 chambres",
-   "new": true,
-   "exclusive": false,
-   "features": [
-    "Piscine"
-   ],
-   "accroche": "",
-   "resume": "Appartement T3 avec balcon et parking situé au 1er étage sans ascenseur d'une petite copropriété calme et sécurisée. Composé d'un séjour cuisine aménagée et équipée, 2 chambres, une salle…",
-   "loyer_hc": "580,00",
-   "charges": "70,00",
-   "depot": "580,00",
-   "honoraires": "Honoraires locataire : 556,00 € TTC",
-   "dispo": "",
-   "photos": [
-    "img/52941075/photo0.jpg",
-    "img/52941075/photo1.jpg",
-    "img/52941075/photo2.jpg"
-   ],
-   "dpe": "img/52941075/dpe.svg",
-   "qr": "img/52941075/qr.svg"
-  },
-  {
-   "id": "52929827",
-   "kind": "location",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-3-pieces-52929827",
-   "type": "Appartement",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 695.0,
-   "surface": 76.0,
-   "rooms": "3",
-   "criteria": "76 m², 3 pièces, 2 chambres",
-   "new": true,
-   "exclusive": false,
-   "features": [
-    "Ascenseur"
-   ],
-   "accroche": "",
-   "resume": "Idéalement situé en plein centre-ville de Montauban, venez découvrir ce bel appartement T3 de 76 m², situé dans une résidence avec ascenseur. Très lumineux et agréable à vivre, cet…",
-   "loyer_hc": "635,00",
-   "charges": "60,00",
-   "depot": "635,00",
-   "honoraires": "Honoraires locataire : 630,00 € TTC",
-   "dispo": "",
-   "photos": [
-    "img/52929827/photo0.jpg",
-    "img/52929827/photo1.jpg",
-    "img/52929827/photo2.jpg"
-   ],
-   "dpe": "img/52929827/dpe.svg",
-   "qr": "img/52929827/qr.svg"
   },
   {
    "id": "52853827",
@@ -352,11 +289,71 @@
    ],
    "dpe": "img/21542626/dpe.svg",
    "qr": "img/21542626/qr.svg"
+  },
+  {
+   "id": "20857250",
+   "kind": "location",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/maison-3-pieces-20857250",
+   "type": "Maison",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 800.0,
+   "surface": 94.0,
+   "rooms": "3",
+   "criteria": "94 m², 3 pièces, 2 chambres",
+   "new": false,
+   "exclusive": true,
+   "features": [
+    "Meublé"
+   ],
+   "accroche": "",
+   "resume": "Rue des doreurs, maison de ville chaleureusement meublée, proches de toutes commodités. Celle-ci offre un séjour ouvert sur la cuisine, 1 grande chambre ainsi qu'une deuxième chambre…",
+   "loyer_hc": "790,00",
+   "charges": "10,00",
+   "depot": "1 580,00",
+   "honoraires": "Honoraires locataire : 846,00 € TTC",
+   "dispo": "",
+   "photos": [
+    "img/20857250/photo0.jpg",
+    "img/20857250/photo1.jpg",
+    "img/20857250/photo2.jpg"
+   ],
+   "dpe": "",
+   "qr": "img/20857250/qr.svg"
+  },
+  {
+   "id": "17568261",
+   "kind": "location",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-1-piece-17568261",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 430.0,
+   "surface": 24.23,
+   "rooms": "1",
+   "criteria": "24 m², 1 pièce",
+   "new": false,
+   "exclusive": true,
+   "features": [],
+   "accroche": "",
+   "resume": "Montauban centre ville, quartier calme proche commerces, écoles, lycée et faculté, studio récent avec cuisine équipée et aménagée, salle d'eau, wc",
+   "loyer_hc": "405,00",
+   "charges": "25,00",
+   "depot": "405,00",
+   "honoraires": "Honoraires locataire : 266,53 € TTC",
+   "dispo": "",
+   "photos": [
+    "img/17568261/photo0.jpg",
+    "img/17568261/photo1.jpg",
+    "img/17568261/photo2.jpg"
+   ],
+   "dpe": "img/17568261/dpe.svg",
+   "qr": "img/17568261/qr.svg"
   }
  ],
  "counts": {
   "vente": 70,
-  "location": 40
+  "location": 39
  },
  "agency": {
   "address": "15 allée de l’Empereur, 82000 Montauban",
