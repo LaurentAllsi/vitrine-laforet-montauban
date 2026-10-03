@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T17:58",
+ "generated_at": "2026-10-03T09:58",
  "vente": [
   {
    "id": "52608366",
@@ -82,6 +82,34 @@
    "qr": "img/52959462/qr.svg"
   },
   {
+   "id": "52905225",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/septfonds/appartement-3-pieces-52905225",
+   "type": "Appartement",
+   "city": "Septfonds",
+   "zip": "82240",
+   "price": 119000.0,
+   "surface": 72.0,
+   "rooms": "3",
+   "criteria": "72 m², 3 pièces, 2 chambres",
+   "new": true,
+   "exclusive": false,
+   "features": [
+    "Meublé"
+   ],
+   "accroche": "",
+   "resume": "Au coeur du village de Septfonds, découvrez ce charmant appartement rénové et prêt à accueillir ses futurs occupants. Il se compose d'une pièce de vie lumineuse avec cuisine aménagée et…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "",
+   "photos": [
+    "img/52905225/photo0.jpg",
+    "img/52905225/photo1.jpg",
+    "img/52905225/photo2.jpg"
+   ],
+   "dpe": "img/52905225/dpe.svg",
+   "qr": "img/52905225/qr.svg"
+  },
+  {
    "id": "52898850",
    "kind": "vente",
    "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/maison-4-pieces-52898850",
@@ -134,37 +162,40 @@
    ],
    "dpe": "img/52282573/dpe.svg",
    "qr": "img/52282573/qr.svg"
-  },
-  {
-   "id": "52913500",
-   "kind": "vente",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/maison-7-pieces-52913500",
-   "type": "Maison",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 425000.0,
-   "surface": 250.0,
-   "rooms": "7",
-   "criteria": "250 m², 7 pièces, 5 chambres",
-   "new": false,
-   "exclusive": true,
-   "features": [
-    "Cheminée"
-   ],
-   "accroche": "Quartier prisé de Saint-Michel",
-   "resume": "Laissez-vous séduire par cette magnifique maison des années 30, située dans le très recherché quartier Saint-Michel. Derrière sa façade pleine de caractère, elle a su préserver tout le…",
-   "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "319",
-   "photos": [
-    "img/52913500/photo0.jpg",
-    "img/52913500/photo1.jpg",
-    "img/52913500/photo2.jpg"
-   ],
-   "dpe": "img/52913500/dpe.svg",
-   "qr": "img/52913500/qr.svg"
   }
  ],
  "louer": [
+  {
+   "id": "52962093",
+   "kind": "location",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-3-pieces-52962093",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 790.0,
+   "surface": 61.54,
+   "rooms": "3",
+   "criteria": "62 m², 3 pièces, 2 chambres",
+   "new": false,
+   "exclusive": true,
+   "features": [
+    "Parking"
+   ],
+   "accroche": "",
+   "resume": "Dans une résidence sécurisée située dans le secteur Nord de Montauban, découvrez ce bel appartement 3 pièces situé au 1er étage. Il se compose d'une entrée, d'un séjour lumineux, d'une…",
+   "loyer_hc": "715,00",
+   "charges": "75,00",
+   "depot": "715,00",
+   "honoraires": "Honoraires locataire : 610,00 € TTC",
+   "dispo": "",
+   "photos": [
+    "img/52962093/photo0.jpg",
+    "img/52962093/photo1.jpg",
+    "img/52962093/photo2.jpg"
+   ],
+   "dpe": "img/52962093/dpe.svg",
+   "qr": "img/52962093/qr.svg"
+  },
   {
    "id": "52930310",
    "kind": "location",
@@ -318,41 +349,10 @@
    ],
    "dpe": "img/21542626/dpe.svg",
    "qr": "img/21542626/qr.svg"
-  },
-  {
-   "id": "20857250",
-   "kind": "location",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/maison-3-pieces-20857250",
-   "type": "Maison",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 800.0,
-   "surface": 94.0,
-   "rooms": "3",
-   "criteria": "94 m², 3 pièces, 2 chambres",
-   "new": false,
-   "exclusive": true,
-   "features": [
-    "Meublé"
-   ],
-   "accroche": "",
-   "resume": "Rue des doreurs, maison de ville chaleureusement meublée, proches de toutes commodités. Celle-ci offre un séjour ouvert sur la cuisine, 1 grande chambre ainsi qu'une deuxième chambre…",
-   "loyer_hc": "790,00",
-   "charges": "10,00",
-   "depot": "1 580,00",
-   "honoraires": "Honoraires locataire : 846,00 € TTC",
-   "dispo": "",
-   "photos": [
-    "img/20857250/photo0.jpg",
-    "img/20857250/photo1.jpg",
-    "img/20857250/photo2.jpg"
-   ],
-   "dpe": "",
-   "qr": "img/20857250/qr.svg"
   }
  ],
  "counts": {
-  "vente": 70,
+  "vente": 69,
   "location": 43
  },
  "agency": {
