@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T16:36",
+ "generated_at": "2026-10-04T10:41",
  "vente": [
   {
    "id": "52608366",
@@ -176,7 +176,7 @@
    "surface": 61.54,
    "rooms": "3",
    "criteria": "62 m², 3 pièces, 2 chambres",
-   "new": false,
+   "new": true,
    "exclusive": true,
    "features": [
     "Parking"
@@ -352,7 +352,7 @@
   }
  ],
  "counts": {
-  "vente": 69,
+  "vente": 68,
   "location": 43
  },
  "agency": {
