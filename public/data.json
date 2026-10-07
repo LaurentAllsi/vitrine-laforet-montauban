@@ -1,6 +1,61 @@
 {
- "generated_at": "2026-10-07T11:14",
+ "generated_at": "2026-10-07T19:02",
  "vente": [
+  {
+   "id": "52971068",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/appartement-3-pieces-52971068",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 145000.0,
+   "surface": 68.0,
+   "rooms": "3",
+   "criteria": "68 m², 3 pièces, 2 chambres",
+   "new": true,
+   "exclusive": true,
+   "features": [],
+   "accroche": "",
+   "resume": "Au coeur du centre-ville de Montauban, cet appartement en duplex occupe le dernier étage d'une petite copropriété. Parfaitement entretenu, il bénéficie d'un séjour lumineux et d'une cuisine…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "",
+   "photos": [
+    "img/52971068/photo0.jpg",
+    "img/52971068/photo1.jpg",
+    "img/52971068/photo2.jpg"
+   ],
+   "dpe": "img/52971068/dpe.svg",
+   "qr": "img/52971068/qr.svg"
+  },
+  {
+   "id": "52970635",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/appartement-2-pieces-52970635",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 119000.0,
+   "surface": 55.0,
+   "rooms": "2",
+   "criteria": "55 m², 2 pièces, 1 chambre",
+   "new": true,
+   "exclusive": true,
+   "features": [
+    "Ascenseur",
+    "Balcon"
+   ],
+   "accroche": "",
+   "resume": "Situé à Montauban, à proximité de toutes les commodités, découvrez cet appartement T2 traversant d'environ 55 m², situé au 4ème et dernier étage d'une résidence avec ascenseur. Il se…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "",
+   "photos": [
+    "img/52970635/photo0.jpg",
+    "img/52970635/photo1.jpg",
+    "img/52970635/photo2.jpg"
+   ],
+   "dpe": "img/52970635/dpe.svg",
+   "qr": "img/52970635/qr.svg"
+  },
   {
    "id": "52959462",
    "kind": "vente",
@@ -108,62 +163,6 @@
    ],
    "dpe": "img/52282573/dpe.svg",
    "qr": "img/52282573/qr.svg"
-  },
-  {
-   "id": "52913500",
-   "kind": "vente",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/maison-7-pieces-52913500",
-   "type": "Maison",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 425000.0,
-   "surface": 250.0,
-   "rooms": "7",
-   "criteria": "250 m², 7 pièces, 5 chambres",
-   "new": false,
-   "exclusive": true,
-   "features": [
-    "Cheminée"
-   ],
-   "accroche": "Quartier prisé de Saint-Michel",
-   "resume": "Laissez-vous séduire par cette magnifique maison des années 30, située dans le très recherché quartier Saint-Michel. Derrière sa façade pleine de caractère, elle a su préserver tout le…",
-   "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "319",
-   "photos": [
-    "img/52913500/photo0.jpg",
-    "img/52913500/photo1.jpg",
-    "img/52913500/photo2.jpg"
-   ],
-   "dpe": "img/52913500/dpe.svg",
-   "qr": "img/52913500/qr.svg"
-  },
-  {
-   "id": "52901515",
-   "kind": "vente",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/maison-6-pieces-52901515",
-   "type": "Maison",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 300000.0,
-   "surface": 200.0,
-   "rooms": "6",
-   "criteria": "200 m², 6 pièces, 4 chambres",
-   "new": false,
-   "exclusive": true,
-   "features": [
-    "Cheminée"
-   ],
-   "accroche": "",
-   "resume": "Au coeur de Montauban, découvrez Sarrail, une superbe demeure toulousaine de caractère. Idéalement située en centre-ville, cette élégante maison de ville a su préserver tout le charme de…",
-   "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "136",
-   "photos": [
-    "img/52901515/photo0.jpg",
-    "img/52901515/photo1.jpg",
-    "img/52901515/photo2.jpg"
-   ],
-   "dpe": "img/52901515/dpe.svg",
-   "qr": "img/52901515/qr.svg"
   }
  ],
  "louer": [
@@ -354,7 +353,7 @@
   }
  ],
  "counts": {
-  "vente": 68,
+  "vente": 70,
   "location": 43
  },
  "agency": {
