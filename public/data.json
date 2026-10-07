@@ -1,34 +1,6 @@
 {
- "generated_at": "2026-10-06T18:33",
+ "generated_at": "2026-10-07T11:14",
  "vente": [
-  {
-   "id": "52608366",
-   "kind": "vente",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/maison-4-pieces-52608366",
-   "type": "Maison",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 260800.0,
-   "surface": 112.64,
-   "rooms": "4",
-   "criteria": "113 m², 4 pièces, 3 chambres",
-   "new": true,
-   "exclusive": true,
-   "features": [
-    "Cheminée"
-   ],
-   "accroche": "",
-   "resume": "Venez découvrir cette charmante maison de plain-pied, entièrement rénovée avec goût, située dans le quartier recherché de Falguières à Montauban. Elle offre une agréable pièce de vie de…",
-   "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "1000",
-   "photos": [
-    "img/52608366/photo0.jpg",
-    "img/52608366/photo1.jpg",
-    "img/52608366/photo2.jpg"
-   ],
-   "dpe": "img/52608366/dpe.svg",
-   "qr": "img/52608366/qr.svg"
-  },
   {
    "id": "52959462",
    "kind": "vente",
@@ -164,6 +136,34 @@
    ],
    "dpe": "img/52913500/dpe.svg",
    "qr": "img/52913500/qr.svg"
+  },
+  {
+   "id": "52901515",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/maison-6-pieces-52901515",
+   "type": "Maison",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 300000.0,
+   "surface": 200.0,
+   "rooms": "6",
+   "criteria": "200 m², 6 pièces, 4 chambres",
+   "new": false,
+   "exclusive": true,
+   "features": [
+    "Cheminée"
+   ],
+   "accroche": "",
+   "resume": "Au coeur de Montauban, découvrez Sarrail, une superbe demeure toulousaine de caractère. Idéalement située en centre-ville, cette élégante maison de ville a su préserver tout le charme de…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "136",
+   "photos": [
+    "img/52901515/photo0.jpg",
+    "img/52901515/photo1.jpg",
+    "img/52901515/photo2.jpg"
+   ],
+   "dpe": "img/52901515/dpe.svg",
+   "qr": "img/52901515/qr.svg"
   }
  ],
  "louer": [
