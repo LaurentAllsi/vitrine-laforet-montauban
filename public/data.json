@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T11:31",
+ "generated_at": "2026-10-08T18:58",
  "vente": [
   {
    "id": "52971068",
@@ -167,37 +167,6 @@
  ],
  "louer": [
   {
-   "id": "52962093",
-   "kind": "location",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-3-pieces-52962093",
-   "type": "Appartement",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 790.0,
-   "surface": 61.54,
-   "rooms": "3",
-   "criteria": "62 m², 3 pièces, 2 chambres",
-   "new": true,
-   "exclusive": true,
-   "features": [
-    "Parking"
-   ],
-   "accroche": "",
-   "resume": "Dans une résidence sécurisée située dans le secteur Nord de Montauban, découvrez ce bel appartement 3 pièces situé au 1er étage. Il se compose d'une entrée, d'un séjour lumineux, d'une…",
-   "loyer_hc": "715,00",
-   "charges": "75,00",
-   "depot": "715,00",
-   "honoraires": "Honoraires locataire : 610,00 € TTC",
-   "dispo": "",
-   "photos": [
-    "img/52962093/photo0.jpg",
-    "img/52962093/photo1.jpg",
-    "img/52962093/photo2.jpg"
-   ],
-   "dpe": "img/52962093/dpe.svg",
-   "qr": "img/52962093/qr.svg"
-  },
-  {
    "id": "52930310",
    "kind": "location",
    "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-3-pieces-52930310",
@@ -350,11 +319,42 @@
    ],
    "dpe": "img/21542626/dpe.svg",
    "qr": "img/21542626/qr.svg"
+  },
+  {
+   "id": "20857250",
+   "kind": "location",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/maison-3-pieces-20857250",
+   "type": "Maison",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 800.0,
+   "surface": 94.0,
+   "rooms": "3",
+   "criteria": "94 m², 3 pièces, 2 chambres",
+   "new": false,
+   "exclusive": true,
+   "features": [
+    "Meublé"
+   ],
+   "accroche": "",
+   "resume": "Rue des doreurs, maison de ville chaleureusement meublée, proches de toutes commodités. Celle-ci offre un séjour ouvert sur la cuisine, 1 grande chambre ainsi qu'une deuxième chambre…",
+   "loyer_hc": "790,00",
+   "charges": "10,00",
+   "depot": "1 580,00",
+   "honoraires": "Honoraires locataire : 846,00 € TTC",
+   "dispo": "",
+   "photos": [
+    "img/20857250/photo0.jpg",
+    "img/20857250/photo1.jpg",
+    "img/20857250/photo2.jpg"
+   ],
+   "dpe": "",
+   "qr": "img/20857250/qr.svg"
   }
  ],
  "counts": {
   "vente": 69,
-  "location": 44
+  "location": 43
  },
  "agency": {
   "address": "15 allée de l’Empereur, 82000 Montauban",
