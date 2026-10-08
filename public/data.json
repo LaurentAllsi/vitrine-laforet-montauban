@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T19:02",
+ "generated_at": "2026-10-08T11:31",
  "vente": [
   {
    "id": "52971068",
@@ -111,34 +111,6 @@
    "qr": "img/52905225/qr.svg"
   },
   {
-   "id": "52898850",
-   "kind": "vente",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/maison-4-pieces-52898850",
-   "type": "Maison",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 182000.0,
-   "surface": 81.5,
-   "rooms": "4",
-   "criteria": "82 m², 4 pièces, 3 chambres",
-   "new": true,
-   "exclusive": false,
-   "features": [
-    "Cheminée"
-   ],
-   "accroche": "",
-   "resume": "Situé dans un environnement résidentiel calme, cette maison de plain-pied de 81.50 m2 offre une belle opportunité. Fonctionnelle et lumineuse, elle comprend une entrée, une cuisine…",
-   "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "349",
-   "photos": [
-    "img/52898850/photo0.jpg",
-    "img/52898850/photo1.jpg",
-    "img/52898850/photo2.jpg"
-   ],
-   "dpe": "img/52898850/dpe.svg",
-   "qr": "img/52898850/qr.svg"
-  },
-  {
    "id": "52282573",
    "kind": "vente",
    "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/appartement-4-pieces-52282573",
@@ -163,6 +135,34 @@
    ],
    "dpe": "img/52282573/dpe.svg",
    "qr": "img/52282573/qr.svg"
+  },
+  {
+   "id": "52913500",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/maison-7-pieces-52913500",
+   "type": "Maison",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 425000.0,
+   "surface": 250.0,
+   "rooms": "7",
+   "criteria": "250 m², 7 pièces, 5 chambres",
+   "new": false,
+   "exclusive": true,
+   "features": [
+    "Cheminée"
+   ],
+   "accroche": "Quartier prisé de Saint-Michel",
+   "resume": "Laissez-vous séduire par cette magnifique maison des années 30, située dans le très recherché quartier Saint-Michel. Derrière sa façade pleine de caractère, elle a su préserver tout le…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "319",
+   "photos": [
+    "img/52913500/photo0.jpg",
+    "img/52913500/photo1.jpg",
+    "img/52913500/photo2.jpg"
+   ],
+   "dpe": "img/52913500/dpe.svg",
+   "qr": "img/52913500/qr.svg"
   }
  ],
  "louer": [
@@ -353,8 +353,8 @@
   }
  ],
  "counts": {
-  "vente": 70,
-  "location": 43
+  "vente": 69,
+  "location": 44
  },
  "agency": {
   "address": "15 allée de l’Empereur, 82000 Montauban",
