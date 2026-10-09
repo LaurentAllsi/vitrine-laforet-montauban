@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T11:27",
+ "generated_at": "2026-10-09T18:28",
  "vente": [
   {
    "id": "52971068",
@@ -19,11 +19,7 @@
    "resume": "Au coeur du centre-ville de Montauban, cet appartement en duplex occupe le dernier étage d'une petite copropriété. Parfaitement entretenu, il bénéficie d'un séjour lumineux et d'une cuisine…",
    "honoraires": "Honoraires à la charge du vendeur",
    "terrain": "",
-   "photos": [
-    "img/52971068/photo0.jpg",
-    "img/52971068/photo1.jpg",
-    "img/52971068/photo2.jpg"
-   ],
+   "photos": [],
    "dpe": "img/52971068/dpe.svg",
    "qr": "img/52971068/qr.svg"
   },
@@ -48,11 +44,7 @@
    "resume": "Situé à Montauban, à proximité de toutes les commodités, découvrez cet appartement T2 traversant d'environ 55 m², situé au 4ème et dernier étage d'une résidence avec ascenseur. Il se…",
    "honoraires": "Honoraires à la charge du vendeur",
    "terrain": "",
-   "photos": [
-    "img/52970635/photo0.jpg",
-    "img/52970635/photo1.jpg",
-    "img/52970635/photo2.jpg"
-   ],
+   "photos": [],
    "dpe": "img/52970635/dpe.svg",
    "qr": "img/52970635/qr.svg"
   },
@@ -74,11 +66,7 @@
    "resume": "Coeur historique de Montauban, à 2 pas du Pont Vieux et du MIB, dans le très bel hôtel particulier de Malpel, venez découvrir ce magnifique appartement entièrement rénové et ayant conservé…",
    "honoraires": "Honoraires à la charge du vendeur",
    "terrain": "6863",
-   "photos": [
-    "img/52959462/photo0.jpg",
-    "img/52959462/photo1.jpg",
-    "img/52959462/photo2.jpg"
-   ],
+   "photos": [],
    "dpe": "img/52959462/dpe.svg",
    "qr": "img/52959462/qr.svg"
   },
@@ -102,11 +90,7 @@
    "resume": "Au coeur du village de Septfonds, découvrez ce charmant appartement rénové et prêt à accueillir ses futurs occupants. Il se compose d'une pièce de vie lumineuse avec cuisine aménagée et…",
    "honoraires": "Honoraires à la charge du vendeur",
    "terrain": "",
-   "photos": [
-    "img/52905225/photo0.jpg",
-    "img/52905225/photo1.jpg",
-    "img/52905225/photo2.jpg"
-   ],
+   "photos": [],
    "dpe": "img/52905225/dpe.svg",
    "qr": "img/52905225/qr.svg"
   },
@@ -130,11 +114,7 @@
    "resume": "Laissez-vous séduire par cette magnifique maison des années 30, située dans le très recherché quartier Saint-Michel. Derrière sa façade pleine de caractère, elle a su préserver tout le…",
    "honoraires": "Honoraires à la charge du vendeur",
    "terrain": "319",
-   "photos": [
-    "img/52913500/photo0.jpg",
-    "img/52913500/photo1.jpg",
-    "img/52913500/photo2.jpg"
-   ],
+   "photos": [],
    "dpe": "img/52913500/dpe.svg",
    "qr": "img/52913500/qr.svg"
   },
@@ -158,11 +138,7 @@
    "resume": "Au coeur de Montauban, découvrez Sarrail, une superbe demeure toulousaine de caractère. Idéalement située en centre-ville, cette élégante maison de ville a su préserver tout le charme de…",
    "honoraires": "Honoraires à la charge du vendeur",
    "terrain": "136",
-   "photos": [
-    "img/52901515/photo0.jpg",
-    "img/52901515/photo1.jpg",
-    "img/52901515/photo2.jpg"
-   ],
+   "photos": [],
    "dpe": "img/52901515/dpe.svg",
    "qr": "img/52901515/qr.svg"
   }
@@ -192,11 +168,7 @@
    "depot": "715,00",
    "honoraires": "Honoraires locataire : 598,20 € TTC",
    "dispo": "",
-   "photos": [
-    "img/52930310/photo0.jpg",
-    "img/52930310/photo1.jpg",
-    "img/52930310/photo2.jpg"
-   ],
+   "photos": [],
    "dpe": "img/52930310/dpe.svg",
    "qr": "img/52930310/qr.svg"
   },
@@ -223,11 +195,7 @@
    "depot": "1 110,00",
    "honoraires": "Honoraires locataire : 473,50 € TTC",
    "dispo": "",
-   "photos": [
-    "img/52853827/photo0.jpg",
-    "img/52853827/photo1.jpg",
-    "img/52853827/photo2.jpg"
-   ],
+   "photos": [],
    "dpe": "img/52853827/dpe.svg",
    "qr": "img/52853827/qr.svg"
   },
@@ -252,11 +220,7 @@
    "depot": "950,00",
    "honoraires": "Honoraires locataire : 1 217,62 € TTC",
    "dispo": "",
-   "photos": [
-    "img/52562203/photo0.jpg",
-    "img/52562203/photo1.jpg",
-    "img/52562203/photo2.jpg"
-   ],
+   "photos": [],
    "dpe": "img/52562203/dpe.svg",
    "qr": "img/52562203/qr.svg"
   },
@@ -283,11 +247,7 @@
    "depot": "700,00",
    "honoraires": "Honoraires locataire : 786,11 € TTC",
    "dispo": "",
-   "photos": [
-    "img/22452998/photo0.jpg",
-    "img/22452998/photo1.jpg",
-    "img/22452998/photo2.jpg"
-   ],
+   "photos": [],
    "dpe": "img/22452998/dpe.svg",
    "qr": "img/22452998/qr.svg"
   },
@@ -314,11 +274,7 @@
    "depot": "1 140,00",
    "honoraires": "Honoraires locataire : 415,80 € TTC",
    "dispo": "",
-   "photos": [
-    "img/21542626/photo0.jpg",
-    "img/21542626/photo1.jpg",
-    "img/21542626/photo2.jpg"
-   ],
+   "photos": [],
    "dpe": "img/21542626/dpe.svg",
    "qr": "img/21542626/qr.svg"
   },
@@ -345,18 +301,14 @@
    "depot": "1 580,00",
    "honoraires": "Honoraires locataire : 846,00 € TTC",
    "dispo": "",
-   "photos": [
-    "img/20857250/photo0.jpg",
-    "img/20857250/photo1.jpg",
-    "img/20857250/photo2.jpg"
-   ],
+   "photos": [],
    "dpe": "",
    "qr": "img/20857250/qr.svg"
   }
  ],
  "counts": {
   "vente": 68,
-  "location": 42
+  "location": 41
  },
  "agency": {
   "address": "15 allée de l’Empereur, 82000 Montauban",
