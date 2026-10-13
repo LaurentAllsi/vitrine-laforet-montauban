@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T12:01",
+ "generated_at": "2026-10-13T19:27",
  "vente": [
   {
    "id": "52971068",
@@ -261,6 +261,38 @@
    "qr": "img/52562203/qr.svg"
   },
   {
+   "id": "52399075",
+   "kind": "location",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-1-piece-52399075",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 500.0,
+   "surface": 24.0,
+   "rooms": "1",
+   "criteria": "24 m², 1 pièce",
+   "new": false,
+   "exclusive": true,
+   "features": [
+    "Ascenseur",
+    "Meublé"
+   ],
+   "accroche": "",
+   "resume": "Montauban centre ville bel appartement meublé entièrement refait à neuf Cuisine équipée ouvert sur une pièce à vivre avec rangements et salle d'eau avec wc",
+   "loyer_hc": "460,00",
+   "charges": "40,00",
+   "depot": "920,00",
+   "honoraires": "Honoraires locataire : 264,00 € TTC",
+   "dispo": "",
+   "photos": [
+    "img/52399075/photo0.jpg",
+    "img/52399075/photo1.jpg",
+    "img/52399075/photo2.jpg"
+   ],
+   "dpe": "img/52399075/dpe.svg",
+   "qr": "img/52399075/qr.svg"
+  },
+  {
    "id": "21542626",
    "kind": "location",
    "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-2-pieces-21542626",
@@ -321,40 +353,11 @@
    ],
    "dpe": "",
    "qr": "img/20857250/qr.svg"
-  },
-  {
-   "id": "17568261",
-   "kind": "location",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-1-piece-17568261",
-   "type": "Appartement",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 430.0,
-   "surface": 24.23,
-   "rooms": "1",
-   "criteria": "24 m², 1 pièce",
-   "new": false,
-   "exclusive": true,
-   "features": [],
-   "accroche": "",
-   "resume": "Montauban centre ville, quartier calme proche commerces, écoles, lycée et faculté, studio récent avec cuisine équipée et aménagée, salle d'eau, wc",
-   "loyer_hc": "405,00",
-   "charges": "25,00",
-   "depot": "405,00",
-   "honoraires": "Honoraires locataire : 266,53 € TTC",
-   "dispo": "",
-   "photos": [
-    "img/17568261/photo0.jpg",
-    "img/17568261/photo1.jpg",
-    "img/17568261/photo2.jpg"
-   ],
-   "dpe": "img/17568261/dpe.svg",
-   "qr": "img/17568261/qr.svg"
   }
  ],
  "counts": {
   "vente": 67,
-  "location": 39
+  "location": 40
  },
  "agency": {
   "address": "15 allée de l’Empereur, 82000 Montauban",
