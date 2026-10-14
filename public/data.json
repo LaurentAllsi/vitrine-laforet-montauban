@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T09:39",
+ "generated_at": "2026-10-14T17:29",
  "vente": [
   {
    "id": "52971068",
@@ -169,6 +169,35 @@
  ],
  "louer": [
   {
+   "id": "52979246",
+   "kind": "location",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/albias/maison-4-pieces-52979246",
+   "type": "Maison",
+   "city": "Albias",
+   "zip": "82350",
+   "price": 980.0,
+   "surface": 104.25,
+   "rooms": "4",
+   "criteria": "104 m², 4 pièces, 3 chambres",
+   "new": false,
+   "exclusive": true,
+   "features": [],
+   "accroche": "",
+   "resume": "Maison plain pied 3 chambres avec jardin arboré et clôturé, cuisine aménagée d'un évier et hotte, séjour salle à manger et wc séparés. Disponible début janvier",
+   "loyer_hc": "950,00",
+   "charges": "30,00",
+   "depot": "950,00",
+   "honoraires": "Honoraires locataire : 938,25 € TTC",
+   "dispo": "",
+   "photos": [
+    "img/52979246/photo0.jpg",
+    "img/52979246/photo1.jpg",
+    "img/52979246/photo2.jpg"
+   ],
+   "dpe": "img/52979246/dpe.svg",
+   "qr": "img/52979246/qr.svg"
+  },
+  {
    "id": "52930310",
    "kind": "location",
    "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-3-pieces-52930310",
@@ -322,40 +351,11 @@
    ],
    "dpe": "",
    "qr": "img/20857250/qr.svg"
-  },
-  {
-   "id": "17568261",
-   "kind": "location",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-1-piece-17568261",
-   "type": "Appartement",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 430.0,
-   "surface": 24.23,
-   "rooms": "1",
-   "criteria": "24 m², 1 pièce",
-   "new": false,
-   "exclusive": true,
-   "features": [],
-   "accroche": "",
-   "resume": "Montauban centre ville, quartier calme proche commerces, écoles, lycée et faculté, studio récent avec cuisine équipée et aménagée, salle d'eau, wc",
-   "loyer_hc": "405,00",
-   "charges": "25,00",
-   "depot": "405,00",
-   "honoraires": "Honoraires locataire : 266,53 € TTC",
-   "dispo": "",
-   "photos": [
-    "img/17568261/photo0.jpg",
-    "img/17568261/photo1.jpg",
-    "img/17568261/photo2.jpg"
-   ],
-   "dpe": "img/17568261/dpe.svg",
-   "qr": "img/17568261/qr.svg"
   }
  ],
  "counts": {
   "vente": 67,
-  "location": 40
+  "location": 46
  },
  "agency": {
   "address": "15 allée de l’Empereur, 82000 Montauban",
