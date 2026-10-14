@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T19:27",
+ "generated_at": "2026-10-14T09:39",
  "vente": [
   {
    "id": "52971068",
@@ -201,37 +201,6 @@
    "qr": "img/52930310/qr.svg"
   },
   {
-   "id": "52853827",
-   "kind": "location",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-2-pieces-52853827",
-   "type": "Appartement",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 590.0,
-   "surface": 49.82,
-   "rooms": "2",
-   "criteria": "50 m², 2 pièces, 1 chambre",
-   "new": false,
-   "exclusive": true,
-   "features": [
-    "Meublé"
-   ],
-   "accroche": "Hyper-centre, Faubourg du Moustier",
-   "resume": "Au sein d'une petite copropriété, découvrez ce charmant appartement meublé en rez-de-chaussée, entièrement rénové avec des prestations de qualité. Il se compose d'une spacieuse cuisine…",
-   "loyer_hc": "555,00",
-   "charges": "35,00",
-   "depot": "1 110,00",
-   "honoraires": "Honoraires locataire : 473,50 € TTC",
-   "dispo": "",
-   "photos": [
-    "img/52853827/photo0.jpg",
-    "img/52853827/photo1.jpg",
-    "img/52853827/photo2.jpg"
-   ],
-   "dpe": "img/52853827/dpe.svg",
-   "qr": "img/52853827/qr.svg"
-  },
-  {
    "id": "52562203",
    "kind": "location",
    "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-5-pieces-52562203",
@@ -353,6 +322,35 @@
    ],
    "dpe": "",
    "qr": "img/20857250/qr.svg"
+  },
+  {
+   "id": "17568261",
+   "kind": "location",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-1-piece-17568261",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 430.0,
+   "surface": 24.23,
+   "rooms": "1",
+   "criteria": "24 m², 1 pièce",
+   "new": false,
+   "exclusive": true,
+   "features": [],
+   "accroche": "",
+   "resume": "Montauban centre ville, quartier calme proche commerces, écoles, lycée et faculté, studio récent avec cuisine équipée et aménagée, salle d'eau, wc",
+   "loyer_hc": "405,00",
+   "charges": "25,00",
+   "depot": "405,00",
+   "honoraires": "Honoraires locataire : 266,53 € TTC",
+   "dispo": "",
+   "photos": [
+    "img/17568261/photo0.jpg",
+    "img/17568261/photo1.jpg",
+    "img/17568261/photo2.jpg"
+   ],
+   "dpe": "img/17568261/dpe.svg",
+   "qr": "img/17568261/qr.svg"
   }
  ],
  "counts": {
