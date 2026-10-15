@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T17:29",
+ "generated_at": "2026-10-15T09:17",
  "vente": [
   {
    "id": "52971068",
@@ -55,32 +55,6 @@
    ],
    "dpe": "img/52970635/dpe.svg",
    "qr": "img/52970635/qr.svg"
-  },
-  {
-   "id": "52959462",
-   "kind": "vente",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/appartement-4-pieces-52959462",
-   "type": "Appartement",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 306000.0,
-   "surface": 142.0,
-   "rooms": "4",
-   "criteria": "142 m², 4 pièces, 3 chambres",
-   "new": true,
-   "exclusive": false,
-   "features": [],
-   "accroche": "",
-   "resume": "Coeur historique de Montauban, à 2 pas du Pont Vieux et du MIB, dans le très bel hôtel particulier de Malpel, venez découvrir ce magnifique appartement entièrement rénové et ayant conservé…",
-   "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "6863",
-   "photos": [
-    "img/52959462/photo0.jpg",
-    "img/52959462/photo1.jpg",
-    "img/52959462/photo2.jpg"
-   ],
-   "dpe": "img/52959462/dpe.svg",
-   "qr": "img/52959462/qr.svg"
   },
   {
    "id": "52905225",
@@ -165,6 +139,32 @@
    ],
    "dpe": "img/52901515/dpe.svg",
    "qr": "img/52901515/qr.svg"
+  },
+  {
+   "id": "52777191",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/appartement-4-pieces-52777191",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 170000.0,
+   "surface": 91.0,
+   "rooms": "4",
+   "criteria": "91 m², 4 pièces, 3 chambres",
+   "new": false,
+   "exclusive": true,
+   "features": [],
+   "accroche": "",
+   "resume": "Montauban Centre, au coeur d'un parc arboré, venez découvrir ce bel appartement de 91 M2 avec terrasse et parking. Cet appartement rénové vous propose une grande cuisine équipée ouverte sur…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "",
+   "photos": [
+    "img/52777191/photo0.jpg",
+    "img/52777191/photo1.jpg",
+    "img/52777191/photo2.jpg"
+   ],
+   "dpe": "img/52777191/dpe.svg",
+   "qr": "img/52777191/qr.svg"
   }
  ],
  "louer": [
@@ -179,7 +179,7 @@
    "surface": 104.25,
    "rooms": "4",
    "criteria": "104 m², 4 pièces, 3 chambres",
-   "new": false,
+   "new": true,
    "exclusive": true,
    "features": [],
    "accroche": "",
@@ -196,6 +196,35 @@
    ],
    "dpe": "img/52979246/dpe.svg",
    "qr": "img/52979246/qr.svg"
+  },
+  {
+   "id": "52907170",
+   "kind": "location",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/saint-etienne-de-tulmont/appartement-2-pieces-52907170",
+   "type": "Appartement",
+   "city": "Saint Etienne De Tulmont",
+   "zip": "82410",
+   "price": 435.0,
+   "surface": 27.0,
+   "rooms": "2",
+   "criteria": "27 m², 2 pièces, 1 chambre",
+   "new": true,
+   "exclusive": false,
+   "features": [],
+   "accroche": "",
+   "resume": "Sur la commune de Saint etienne de tulmont, appartement en rdc comprenant une cuisine avec séjour, chambre séparée et salle d'eau climatisation réversible",
+   "loyer_hc": "420,00",
+   "charges": "15,00",
+   "depot": "420,00",
+   "honoraires": "Honoraires locataire : 297,00 € TTC",
+   "dispo": "",
+   "photos": [
+    "img/52907170/photo0.jpg",
+    "img/52907170/photo1.jpg",
+    "img/52907170/photo2.jpg"
+   ],
+   "dpe": "img/52907170/dpe.svg",
+   "qr": "img/52907170/qr.svg"
   },
   {
    "id": "52930310",
@@ -320,41 +349,10 @@
    ],
    "dpe": "img/21542626/dpe.svg",
    "qr": "img/21542626/qr.svg"
-  },
-  {
-   "id": "20857250",
-   "kind": "location",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/maison-3-pieces-20857250",
-   "type": "Maison",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 800.0,
-   "surface": 94.0,
-   "rooms": "3",
-   "criteria": "94 m², 3 pièces, 2 chambres",
-   "new": false,
-   "exclusive": true,
-   "features": [
-    "Meublé"
-   ],
-   "accroche": "",
-   "resume": "Rue des doreurs, maison de ville chaleureusement meublée, proches de toutes commodités. Celle-ci offre un séjour ouvert sur la cuisine, 1 grande chambre ainsi qu'une deuxième chambre…",
-   "loyer_hc": "790,00",
-   "charges": "10,00",
-   "depot": "1 580,00",
-   "honoraires": "Honoraires locataire : 846,00 € TTC",
-   "dispo": "",
-   "photos": [
-    "img/20857250/photo0.jpg",
-    "img/20857250/photo1.jpg",
-    "img/20857250/photo2.jpg"
-   ],
-   "dpe": "",
-   "qr": "img/20857250/qr.svg"
   }
  ],
  "counts": {
-  "vente": 67,
+  "vente": 64,
   "location": 46
  },
  "agency": {
