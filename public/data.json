@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T17:16",
+ "generated_at": "2026-10-16T09:10",
  "vente": [
   {
    "id": "52971068",
@@ -55,34 +55,6 @@
    ],
    "dpe": "img/52970635/dpe.svg",
    "qr": "img/52970635/qr.svg"
-  },
-  {
-   "id": "52905225",
-   "kind": "vente",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/septfonds/appartement-3-pieces-52905225",
-   "type": "Appartement",
-   "city": "Septfonds",
-   "zip": "82240",
-   "price": 119000.0,
-   "surface": 72.0,
-   "rooms": "3",
-   "criteria": "72 m², 3 pièces, 2 chambres",
-   "new": true,
-   "exclusive": false,
-   "features": [
-    "Meublé"
-   ],
-   "accroche": "",
-   "resume": "Au coeur du village de Septfonds, découvrez ce charmant appartement rénové et prêt à accueillir ses futurs occupants. Il se compose d'une pièce de vie lumineuse avec cuisine aménagée et…",
-   "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "",
-   "photos": [
-    "img/52905225/photo0.jpg",
-    "img/52905225/photo1.jpg",
-    "img/52905225/photo2.jpg"
-   ],
-   "dpe": "img/52905225/dpe.svg",
-   "qr": "img/52905225/qr.svg"
   },
   {
    "id": "52913500",
@@ -165,6 +137,32 @@
    ],
    "dpe": "img/52777191/dpe.svg",
    "qr": "img/52777191/qr.svg"
+  },
+  {
+   "id": "52738860",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/appartement-3-pieces-52738860",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 159000.0,
+   "surface": 75.0,
+   "rooms": "3",
+   "criteria": "75 m², 3 pièces, 2 chambres",
+   "new": false,
+   "exclusive": true,
+   "features": [],
+   "accroche": "",
+   "resume": "Au coeur de Montauban, découvrez ce magnifique appartement de caractère aux volumes généreux. Il se compose d'un vaste salon-séjour lumineux avec mezzanine, d'une grande cuisine entièrement…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "",
+   "photos": [
+    "img/52738860/photo0.jpg",
+    "img/52738860/photo1.jpg",
+    "img/52738860/photo2.jpg"
+   ],
+   "dpe": "img/52738860/dpe.svg",
+   "qr": "img/52738860/qr.svg"
   }
  ],
  "louer": [
@@ -352,7 +350,7 @@
   }
  ],
  "counts": {
-  "vente": 64,
+  "vente": 63,
   "location": 46
  },
  "agency": {
