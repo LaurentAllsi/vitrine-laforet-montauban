@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T16:04",
+ "generated_at": "2026-10-19T09:08",
  "vente": [
   {
    "id": "52971068",
@@ -445,10 +445,10 @@
   }
  ],
  "insta": [
-  "img/insta/0.jpg",
+  "img/insta/0.png",
   "img/insta/1.png",
-  "img/insta/2.jpg",
-  "img/insta/3.jpg"
+  "img/insta/2.png",
+  "img/insta/3.png"
  ],
  "qr_avis": "img/brand/qr-avis-google.png"
 }
