@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T10:07",
+ "generated_at": "2026-10-19T18:48",
  "vente": [
   {
    "id": "52971068",
@@ -271,7 +271,7 @@
    "exclusive": true,
    "features": [],
    "accroche": "",
-   "resume": "Exclusivité, situé au sein d'un bel hôtel particulier en plein coeur du centre ville, cet appartement de 172m2 en rez de chaussée offre un cadre de vie exceptionnel alliant charme de…",
+   "resume": "Exclusivité, situé au sein d'un bel hôtel particulier en plein coeur du centre ville, cet appartement de 172m2 en rez de chaussée offre un cadre de vie exceptionnel. Le bien comprend : - un…",
    "loyer_hc": "950,00",
    "charges": "50,00",
    "depot": "950,00",
@@ -351,7 +351,7 @@
  ],
  "counts": {
   "vente": 62,
-  "location": 45
+  "location": 46
  },
  "agency": {
   "address": "15 allée de l’Empereur, 82000 Montauban",
