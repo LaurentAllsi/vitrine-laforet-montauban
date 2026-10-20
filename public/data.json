@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T18:48",
+ "generated_at": "2026-10-20T09:33",
  "vente": [
   {
    "id": "52971068",
@@ -318,40 +318,40 @@
    "qr": "img/52399075/qr.svg"
   },
   {
-   "id": "21542626",
+   "id": "20857250",
    "kind": "location",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-2-pieces-21542626",
-   "type": "Appartement",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/maison-3-pieces-20857250",
+   "type": "Maison",
    "city": "Montauban",
    "zip": "82000",
-   "price": 590.0,
-   "surface": 41.58,
-   "rooms": "2",
-   "criteria": "42 m², 2 pièces, 1 chambre",
+   "price": 800.0,
+   "surface": 94.0,
+   "rooms": "3",
+   "criteria": "94 m², 3 pièces, 2 chambres",
    "new": false,
    "exclusive": true,
    "features": [
     "Meublé"
    ],
    "accroche": "",
-   "resume": "À découvrir : charmant appartement T2 meublé en rez-de-chaussée, entièrement rénové, situé à proximité immédiate de toutes les commodités.",
-   "loyer_hc": "570,00",
-   "charges": "20,00",
-   "depot": "1 140,00",
-   "honoraires": "Honoraires locataire : 415,80 € TTC",
+   "resume": "Rue des doreurs, maison de ville chaleureusement meublée, proches de toutes commodités. Celle-ci offre un séjour ouvert sur la cuisine, 1 grande chambre ainsi qu'une deuxième chambre…",
+   "loyer_hc": "790,00",
+   "charges": "10,00",
+   "depot": "1 580,00",
+   "honoraires": "Honoraires locataire : 846,00 € TTC",
    "dispo": "",
    "photos": [
-    "img/21542626/photo0.jpg",
-    "img/21542626/photo1.jpg",
-    "img/21542626/photo2.jpg"
+    "img/20857250/photo0.jpg",
+    "img/20857250/photo1.jpg",
+    "img/20857250/photo2.jpg"
    ],
-   "dpe": "img/21542626/dpe.svg",
-   "qr": "img/21542626/qr.svg"
+   "dpe": "",
+   "qr": "img/20857250/qr.svg"
   }
  ],
  "counts": {
-  "vente": 62,
-  "location": 46
+  "vente": 60,
+  "location": 44
  },
  "agency": {
   "address": "15 allée de l’Empereur, 82000 Montauban",
