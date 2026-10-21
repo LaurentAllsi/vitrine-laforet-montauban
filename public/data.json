@@ -1,6 +1,32 @@
 {
- "generated_at": "2026-10-20T17:26",
+ "generated_at": "2026-10-21T09:29",
  "vente": [
+  {
+   "id": "52977120",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/appartement-5-pieces-52977120",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 213800.0,
+   "surface": 92.0,
+   "rooms": "5",
+   "criteria": "92 m², 5 pièces, 3 chambres",
+   "new": true,
+   "exclusive": false,
+   "features": [],
+   "accroche": "",
+   "resume": "Situé en plein centre-ville de Montauban, à proximité des commerces et de toutes les commodités, découvrez cet appartement T5 offrant de beaux volumes. Il se compose d'un grand…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "",
+   "photos": [
+    "img/52977120/photo0.jpg",
+    "img/52977120/photo1.jpg",
+    "img/52977120/photo2.jpg"
+   ],
+   "dpe": "img/52977120/dpe.svg",
+   "qr": "img/52977120/qr.svg"
+  },
   {
    "id": "52971068",
    "kind": "vente",
@@ -12,7 +38,7 @@
    "surface": 68.0,
    "rooms": "3",
    "criteria": "68 m², 3 pièces, 2 chambres",
-   "new": true,
+   "new": false,
    "exclusive": true,
    "features": [],
    "accroche": "",
@@ -38,7 +64,7 @@
    "surface": 55.0,
    "rooms": "2",
    "criteria": "55 m², 2 pièces, 1 chambre",
-   "new": true,
+   "new": false,
    "exclusive": true,
    "features": [
     "Ascenseur",
@@ -137,32 +163,6 @@
    ],
    "dpe": "img/52777191/dpe.svg",
    "qr": "img/52777191/qr.svg"
-  },
-  {
-   "id": "52738860",
-   "kind": "vente",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/appartement-3-pieces-52738860",
-   "type": "Appartement",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 159000.0,
-   "surface": 75.0,
-   "rooms": "3",
-   "criteria": "75 m², 3 pièces, 2 chambres",
-   "new": false,
-   "exclusive": true,
-   "features": [],
-   "accroche": "",
-   "resume": "Au coeur de Montauban, découvrez ce magnifique appartement de caractère aux volumes généreux. Il se compose d'un vaste salon-séjour lumineux avec mezzanine, d'une grande cuisine entièrement…",
-   "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "",
-   "photos": [
-    "img/52738860/photo0.jpg",
-    "img/52738860/photo1.jpg",
-    "img/52738860/photo2.jpg"
-   ],
-   "dpe": "img/52738860/dpe.svg",
-   "qr": "img/52738860/qr.svg"
   }
  ],
  "louer": [
@@ -351,7 +351,7 @@
  ],
  "counts": {
   "vente": 61,
-  "location": 48
+  "location": 46
  },
  "agency": {
   "address": "15 allée de l’Empereur, 82000 Montauban",
