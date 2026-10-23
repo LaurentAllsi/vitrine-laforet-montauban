@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-10-23T09:28",
+ "generated_at": "2026-10-23T17:22",
  "vente": [
+  {
+   "id": "52994508",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/terrain-52994508",
+   "type": "Terrain",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 61500.0,
+   "surface": 0.0,
+   "rooms": "0",
+   "criteria": "730 m²",
+   "new": true,
+   "exclusive": true,
+   "features": [],
+   "accroche": "",
+   "resume": "À proximité immédiate du centre-ville de Montauban, découvrez ce terrain constructible de 730 m², idéal pour réaliser votre projet de construction. Son emplacement privilégié vous permet de…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "730",
+   "photos": [
+    "img/52994508/photo0.jpg"
+   ],
+   "dpe": "",
+   "qr": "img/52994508/qr.svg"
+  },
   {
    "id": "52977120",
    "kind": "vente",
@@ -135,34 +159,6 @@
    ],
    "dpe": "img/52913500/dpe.svg",
    "qr": "img/52913500/qr.svg"
-  },
-  {
-   "id": "52901515",
-   "kind": "vente",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/maison-6-pieces-52901515",
-   "type": "Maison",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 300000.0,
-   "surface": 200.0,
-   "rooms": "6",
-   "criteria": "200 m², 6 pièces, 4 chambres",
-   "new": false,
-   "exclusive": true,
-   "features": [
-    "Cheminée"
-   ],
-   "accroche": "",
-   "resume": "Au coeur de Montauban, découvrez Sarrail, une superbe demeure toulousaine de caractère. Idéalement située en centre-ville, cette élégante maison de ville a su préserver tout le charme de…",
-   "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "136",
-   "photos": [
-    "img/52901515/photo0.jpg",
-    "img/52901515/photo1.jpg",
-    "img/52901515/photo2.jpg"
-   ],
-   "dpe": "img/52901515/dpe.svg",
-   "qr": "img/52901515/qr.svg"
   }
  ],
  "louer": [
@@ -350,7 +346,7 @@
   }
  ],
  "counts": {
-  "vente": 61,
+  "vente": 63,
   "location": 46
  },
  "agency": {
