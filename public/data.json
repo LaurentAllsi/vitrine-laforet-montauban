@@ -1,6 +1,32 @@
 {
- "generated_at": "2026-10-24T08:59",
+ "generated_at": "2026-10-24T16:10",
  "vente": [
+  {
+   "id": "52996514",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/maison-5-pieces-52996514",
+   "type": "Maison",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 265800.0,
+   "surface": 132.0,
+   "rooms": "5",
+   "criteria": "132 m², 5 pièces, 4 chambres",
+   "new": true,
+   "exclusive": true,
+   "features": [],
+   "accroche": "",
+   "resume": "Située à proximité du centre-ville, cette maison T5 offre un cadre de vie agréable avec un grand salon-séjour, une cuisine, une buanderie et un garage. L'espace nuit se compose de 4…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "966",
+   "photos": [
+    "img/52996514/photo0.jpg",
+    "img/52996514/photo1.jpg",
+    "img/52996514/photo2.jpg"
+   ],
+   "dpe": "img/52996514/dpe.svg",
+   "qr": "img/52996514/qr.svg"
+  },
   {
    "id": "52994508",
    "kind": "vente",
@@ -134,32 +160,6 @@
    ],
    "dpe": "img/52970635/dpe.svg",
    "qr": "img/52970635/qr.svg"
-  },
-  {
-   "id": "52966932",
-   "kind": "vente",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/maison-5-pieces-52966932",
-   "type": "Maison",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 260000.0,
-   "surface": 110.0,
-   "rooms": "5",
-   "criteria": "110 m², 5 pièces, 4 chambres",
-   "new": false,
-   "exclusive": true,
-   "features": [],
-   "accroche": "",
-   "resume": "Montauban , La maison de plain-pied où toute la famille trouve sa place Samedi matin, 8 h. Le soleil entre dans la grande pièce de vie de 44 m². Le café coule dans la cuisine aménagée…",
-   "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "1000",
-   "photos": [
-    "img/52966932/photo0.jpg",
-    "img/52966932/photo1.jpg",
-    "img/52966932/photo2.jpg"
-   ],
-   "dpe": "img/52966932/dpe.svg",
-   "qr": "img/52966932/qr.svg"
   }
  ],
  "louer": [
@@ -347,7 +347,7 @@
   }
  ],
  "counts": {
-  "vente": 63,
+  "vente": 64,
   "location": 46
  },
  "agency": {
