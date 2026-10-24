@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T17:22",
+ "generated_at": "2026-10-24T08:59",
  "vente": [
   {
    "id": "52994508",
@@ -50,6 +50,35 @@
    ],
    "dpe": "img/52977120/dpe.svg",
    "qr": "img/52977120/qr.svg"
+  },
+  {
+   "id": "52846474",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/immeuble-52846474",
+   "type": "Immeuble",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 548600.0,
+   "surface": 300.0,
+   "rooms": "10",
+   "criteria": "300 m², 10 pièces, 6 chambres",
+   "new": true,
+   "exclusive": false,
+   "features": [
+    "Balcon",
+    "Cheminée"
+   ],
+   "accroche": "Montauban Hyper Centre",
+   "resume": "Idéalement situé en plein coeur de ville, ce superbe immeuble bourgeois en excellent état général offre un fort potentiel d'investissement. L'ensemble immobilier se compose de : ? En…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "354",
+   "photos": [
+    "img/52846474/photo0.jpg",
+    "img/52846474/photo1.jpg",
+    "img/52846474/photo2.jpg"
+   ],
+   "dpe": "img/52846474/dpe.svg",
+   "qr": "img/52846474/qr.svg"
   },
   {
    "id": "52971068",
@@ -131,34 +160,6 @@
    ],
    "dpe": "img/52966932/dpe.svg",
    "qr": "img/52966932/qr.svg"
-  },
-  {
-   "id": "52913500",
-   "kind": "vente",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/maison-7-pieces-52913500",
-   "type": "Maison",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 425000.0,
-   "surface": 250.0,
-   "rooms": "7",
-   "criteria": "250 m², 7 pièces, 5 chambres",
-   "new": false,
-   "exclusive": true,
-   "features": [
-    "Cheminée"
-   ],
-   "accroche": "Quartier prisé de Saint-Michel",
-   "resume": "Laissez-vous séduire par cette magnifique maison des années 30, située dans le très recherché quartier Saint-Michel. Derrière sa façade pleine de caractère, elle a su préserver tout le…",
-   "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "319",
-   "photos": [
-    "img/52913500/photo0.jpg",
-    "img/52913500/photo1.jpg",
-    "img/52913500/photo2.jpg"
-   ],
-   "dpe": "img/52913500/dpe.svg",
-   "qr": "img/52913500/qr.svg"
   }
  ],
  "louer": [
