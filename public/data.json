@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T18:26",
+ "generated_at": "2026-10-29T11:00",
  "vente": [
   {
    "id": "52996514",
@@ -164,35 +164,6 @@
  ],
  "louer": [
   {
-   "id": "52979246",
-   "kind": "location",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/albias/maison-4-pieces-52979246",
-   "type": "Maison",
-   "city": "Albias",
-   "zip": "82350",
-   "price": 980.0,
-   "surface": 104.25,
-   "rooms": "4",
-   "criteria": "104 m², 4 pièces, 3 chambres",
-   "new": false,
-   "exclusive": true,
-   "features": [],
-   "accroche": "",
-   "resume": "Maison plain pied 3 chambres avec jardin arboré et clôturé, cuisine aménagée d'un évier et hotte, séjour salle à manger et wc séparés. Disponible début janvier",
-   "loyer_hc": "950,00",
-   "charges": "30,00",
-   "depot": "950,00",
-   "honoraires": "Honoraires locataire : 938,25 € TTC",
-   "dispo": "",
-   "photos": [
-    "img/52979246/photo0.jpg",
-    "img/52979246/photo1.jpg",
-    "img/52979246/photo2.jpg"
-   ],
-   "dpe": "img/52979246/dpe.svg",
-   "qr": "img/52979246/qr.svg"
-  },
-  {
    "id": "52930310",
    "kind": "location",
    "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-3-pieces-52930310",
@@ -346,11 +317,40 @@
    ],
    "dpe": "img/22452998/dpe.svg",
    "qr": "img/22452998/qr.svg"
+  },
+  {
+   "id": "21649138",
+   "kind": "location",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-1-piece-21649138",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 510.0,
+   "surface": 40.03,
+   "rooms": "1",
+   "criteria": "40 m², 1 pièce",
+   "new": false,
+   "exclusive": true,
+   "features": [],
+   "accroche": "",
+   "resume": "Situé au centre-ville de Montauban, venez découvrir ce charmant T1 bis en duplex offrant une magnifique vue sur le Tarn. Sur deux niveaux, il comprend une cuisine aménagée, un coin nuit et…",
+   "loyer_hc": "470,00",
+   "charges": "40,00",
+   "depot": "470,00",
+   "honoraires": "Honoraires locataire : 400,30 € TTC",
+   "dispo": "",
+   "photos": [
+    "img/21649138/photo0.jpg",
+    "img/21649138/photo1.jpg",
+    "img/21649138/photo2.jpg"
+   ],
+   "dpe": "img/21649138/dpe.svg",
+   "qr": "img/21649138/qr.svg"
   }
  ],
  "counts": {
   "vente": 64,
-  "location": 47
+  "location": 44
  },
  "agency": {
   "address": "15 allée de l’Empereur, 82000 Montauban",
