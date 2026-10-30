@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T10:57",
+ "generated_at": "2026-10-30T18:12",
  "vente": [
   {
    "id": "52996514",
@@ -19,7 +19,11 @@
    "resume": "Située à proximité du centre-ville, cette maison T5 offre un cadre de vie agréable avec un grand salon-séjour, une cuisine, une buanderie et un garage. L'espace nuit se compose de 4…",
    "honoraires": "Honoraires à la charge du vendeur",
    "terrain": "966",
-   "photos": [],
+   "photos": [
+    "img/52996514/photo0.jpg",
+    "img/52996514/photo1.jpg",
+    "img/52996514/photo2.jpg"
+   ],
    "dpe": "img/52996514/dpe.svg",
    "qr": "img/52996514/qr.svg"
   },
@@ -41,7 +45,9 @@
    "resume": "À proximité immédiate du centre-ville de Montauban, découvrez ce terrain constructible de 730 m², idéal pour réaliser votre projet de construction. Son emplacement privilégié vous permet de…",
    "honoraires": "Honoraires à la charge du vendeur",
    "terrain": "730",
-   "photos": [],
+   "photos": [
+    "img/52994508/photo0.jpg"
+   ],
    "dpe": "",
    "qr": "img/52994508/qr.svg"
   },
@@ -63,7 +69,11 @@
    "resume": "Situé en plein centre-ville de Montauban, à proximité des commerces et de toutes les commodités, découvrez cet appartement T5 offrant de beaux volumes. Il se compose d'un grand…",
    "honoraires": "Honoraires à la charge du vendeur",
    "terrain": "",
-   "photos": [],
+   "photos": [
+    "img/52977120/photo0.jpg",
+    "img/52977120/photo1.jpg",
+    "img/52977120/photo2.jpg"
+   ],
    "dpe": "img/52977120/dpe.svg",
    "qr": "img/52977120/qr.svg"
   },
@@ -75,9 +85,9 @@
    "city": "Montauban",
    "zip": "82000",
    "price": 548600.0,
-   "surface": 300.0,
+   "surface": 357.0,
    "rooms": "10",
-   "criteria": "300 m², 10 pièces, 6 chambres",
+   "criteria": "357 m², 10 pièces, 6 chambres",
    "new": true,
    "exclusive": false,
    "features": [
@@ -88,7 +98,11 @@
    "resume": "Idéalement situé en plein coeur de ville, ce superbe immeuble bourgeois en excellent état général offre un fort potentiel d'investissement. L'ensemble immobilier se compose de : ? En…",
    "honoraires": "Honoraires à la charge du vendeur",
    "terrain": "354",
-   "photos": [],
+   "photos": [
+    "img/52846474/photo0.jpg",
+    "img/52846474/photo1.jpg",
+    "img/52846474/photo2.jpg"
+   ],
    "dpe": "img/52846474/dpe.svg",
    "qr": "img/52846474/qr.svg"
   },
@@ -110,7 +124,11 @@
    "resume": "Au coeur du centre-ville de Montauban, cet appartement en duplex occupe le dernier étage d'une petite copropriété. Parfaitement entretenu, il bénéficie d'un séjour lumineux et d'une cuisine…",
    "honoraires": "Honoraires à la charge du vendeur",
    "terrain": "",
-   "photos": [],
+   "photos": [
+    "img/52971068/photo0.jpg",
+    "img/52971068/photo1.jpg",
+    "img/52971068/photo2.jpg"
+   ],
    "dpe": "img/52971068/dpe.svg",
    "qr": "img/52971068/qr.svg"
   },
@@ -135,7 +153,11 @@
    "resume": "Situé à Montauban, à proximité de toutes les commodités, découvrez cet appartement T2 traversant d'environ 55 m², situé au 4ème et dernier étage d'une résidence avec ascenseur. Il se…",
    "honoraires": "Honoraires à la charge du vendeur",
    "terrain": "",
-   "photos": [],
+   "photos": [
+    "img/52970635/photo0.jpg",
+    "img/52970635/photo1.jpg",
+    "img/52970635/photo2.jpg"
+   ],
    "dpe": "img/52970635/dpe.svg",
    "qr": "img/52970635/qr.svg"
   }
@@ -162,7 +184,11 @@
    "depot": "1 160,00",
    "honoraires": "Honoraires locataire : 1 002,24 € TTC",
    "dispo": "",
-   "photos": [],
+   "photos": [
+    "img/53002759/photo0.jpg",
+    "img/53002759/photo1.jpg",
+    "img/53002759/photo2.jpg"
+   ],
    "dpe": "img/53002759/dpe.svg",
    "qr": "img/53002759/qr.svg"
   },
@@ -190,7 +216,11 @@
    "depot": "715,00",
    "honoraires": "Honoraires locataire : 598,20 € TTC",
    "dispo": "",
-   "photos": [],
+   "photos": [
+    "img/52930310/photo0.jpg",
+    "img/52930310/photo1.jpg",
+    "img/52930310/photo2.jpg"
+   ],
    "dpe": "img/52930310/dpe.svg",
    "qr": "img/52930310/qr.svg"
   },
@@ -217,7 +247,11 @@
    "depot": "490,00",
    "honoraires": "Honoraires locataire : 432,85 € TTC",
    "dispo": "",
-   "photos": [],
+   "photos": [
+    "img/52787348/photo0.jpg",
+    "img/52787348/photo1.jpg",
+    "img/52787348/photo2.jpg"
+   ],
    "dpe": "img/52787348/dpe.svg",
    "qr": "img/52787348/qr.svg"
   },
@@ -242,7 +276,11 @@
    "depot": "950,00",
    "honoraires": "Honoraires locataire : 1 217,62 € TTC",
    "dispo": "",
-   "photos": [],
+   "photos": [
+    "img/52562203/photo0.jpg",
+    "img/52562203/photo1.jpg",
+    "img/52562203/photo2.jpg"
+   ],
    "dpe": "img/52562203/dpe.svg",
    "qr": "img/52562203/qr.svg"
   },
@@ -270,7 +308,11 @@
    "depot": "920,00",
    "honoraires": "Honoraires locataire : 264,00 € TTC",
    "dispo": "",
-   "photos": [],
+   "photos": [
+    "img/52399075/photo0.jpg",
+    "img/52399075/photo1.jpg",
+    "img/52399075/photo2.jpg"
+   ],
    "dpe": "img/52399075/dpe.svg",
    "qr": "img/52399075/qr.svg"
   },
@@ -297,14 +339,18 @@
    "depot": "700,00",
    "honoraires": "Honoraires locataire : 786,11 € TTC",
    "dispo": "",
-   "photos": [],
+   "photos": [
+    "img/22452998/photo0.jpg",
+    "img/22452998/photo1.jpg",
+    "img/22452998/photo2.jpg"
+   ],
    "dpe": "img/22452998/dpe.svg",
    "qr": "img/22452998/qr.svg"
   }
  ],
  "counts": {
   "vente": 64,
-  "location": 46
+  "location": 45
  },
  "agency": {
   "address": "15 allée de l’Empereur, 82000 Montauban",
