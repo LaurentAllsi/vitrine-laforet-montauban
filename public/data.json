@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T12:44",
+ "generated_at": "2026-11-02T21:52",
  "vente": [
   {
    "id": "52996514",
@@ -225,37 +225,6 @@
    "qr": "img/52930310/qr.svg"
   },
   {
-   "id": "52787348",
-   "kind": "location",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-2-pieces-52787348",
-   "type": "Appartement",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 550.0,
-   "surface": 39.35,
-   "rooms": "2",
-   "criteria": "39 m², 2 pièces, 1 chambre",
-   "new": false,
-   "exclusive": true,
-   "features": [
-    "Ascenseur"
-   ],
-   "accroche": "Résidence Le Parmes,",
-   "resume": "Proche hyper-centre au 3ème étage d'un immeuble avec ascenseur et place de parking privative. Appartement de type 2 composé d'une pièce de vie donnant sur un balcon, une cuisine équipée…",
-   "loyer_hc": "490,00",
-   "charges": "60,00",
-   "depot": "490,00",
-   "honoraires": "Honoraires locataire : 432,85 € TTC",
-   "dispo": "",
-   "photos": [
-    "img/52787348/photo0.jpg",
-    "img/52787348/photo1.jpg",
-    "img/52787348/photo2.jpg"
-   ],
-   "dpe": "img/52787348/dpe.svg",
-   "qr": "img/52787348/qr.svg"
-  },
-  {
    "id": "52562203",
    "kind": "location",
    "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-5-pieces-52562203",
@@ -346,11 +315,40 @@
    ],
    "dpe": "img/22452998/dpe.svg",
    "qr": "img/22452998/qr.svg"
+  },
+  {
+   "id": "21649138",
+   "kind": "location",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-1-piece-21649138",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 510.0,
+   "surface": 40.03,
+   "rooms": "1",
+   "criteria": "40 m², 1 pièce",
+   "new": false,
+   "exclusive": true,
+   "features": [],
+   "accroche": "",
+   "resume": "Situé au centre-ville de Montauban, venez découvrir ce charmant T1 bis en duplex offrant une magnifique vue sur le Tarn. Sur deux niveaux, il comprend une cuisine aménagée, un coin nuit et…",
+   "loyer_hc": "470,00",
+   "charges": "40,00",
+   "depot": "470,00",
+   "honoraires": "Honoraires locataire : 400,30 € TTC",
+   "dispo": "",
+   "photos": [
+    "img/21649138/photo0.jpg",
+    "img/21649138/photo1.jpg",
+    "img/21649138/photo2.jpg"
+   ],
+   "dpe": "img/21649138/dpe.svg",
+   "qr": "img/21649138/qr.svg"
   }
  ],
  "counts": {
   "vente": 64,
-  "location": 45
+  "location": 43
  },
  "agency": {
   "address": "15 allée de l’Empereur, 82000 Montauban",
