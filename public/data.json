@@ -1,6 +1,30 @@
 {
- "generated_at": "2026-11-03T12:10",
+ "generated_at": "2026-11-03T19:43",
  "vente": [
+  {
+   "id": "53008304",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/appartement-5-pieces-53008304",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 169500.0,
+   "surface": 93.0,
+   "rooms": "5",
+   "criteria": "93 m², 5 pièces, 3 chambres",
+   "new": true,
+   "exclusive": true,
+   "features": [],
+   "accroche": "",
+   "resume": "Situé au coeur de Montauban, au sein de la résidence Alexandre 1er, découvrez cet appartement T5 traversant et lumineux, offrant de beaux volumes et un cadre de vie agréable. Il se compose…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "",
+   "photos": [
+    "img/53008304/photo0.jpg"
+   ],
+   "dpe": "img/53008304/dpe.svg",
+   "qr": "img/53008304/qr.svg"
+  },
   {
    "id": "53008303",
    "kind": "vente",
@@ -131,35 +155,6 @@
    ],
    "dpe": "img/52971068/dpe.svg",
    "qr": "img/52971068/qr.svg"
-  },
-  {
-   "id": "52970635",
-   "kind": "vente",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/appartement-2-pieces-52970635",
-   "type": "Appartement",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 119000.0,
-   "surface": 55.0,
-   "rooms": "2",
-   "criteria": "55 m², 2 pièces, 1 chambre",
-   "new": false,
-   "exclusive": true,
-   "features": [
-    "Ascenseur",
-    "Balcon"
-   ],
-   "accroche": "",
-   "resume": "Situé à Montauban, à proximité de toutes les commodités, découvrez cet appartement T2 traversant d'environ 55 m², situé au 4ème et dernier étage d'une résidence avec ascenseur. Il se…",
-   "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "",
-   "photos": [
-    "img/52970635/photo0.jpg",
-    "img/52970635/photo1.jpg",
-    "img/52970635/photo2.jpg"
-   ],
-   "dpe": "img/52970635/dpe.svg",
-   "qr": "img/52970635/qr.svg"
   }
  ],
  "louer": [
@@ -191,6 +186,35 @@
    ],
    "dpe": "img/53002759/dpe.svg",
    "qr": "img/53002759/qr.svg"
+  },
+  {
+   "id": "52979246",
+   "kind": "location",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/albias/maison-4-pieces-52979246",
+   "type": "Maison",
+   "city": "Albias",
+   "zip": "82350",
+   "price": 980.0,
+   "surface": 104.25,
+   "rooms": "4",
+   "criteria": "104 m², 4 pièces, 3 chambres",
+   "new": false,
+   "exclusive": true,
+   "features": [],
+   "accroche": "",
+   "resume": "Maison plain pied 3 chambres avec jardin arboré et clôturé, cuisine aménagée d'un évier et hotte, séjour salle à manger et wc séparés. Disponible début janvier",
+   "loyer_hc": "950,00",
+   "charges": "30,00",
+   "depot": "950,00",
+   "honoraires": "Honoraires locataire : 938,25 € TTC",
+   "dispo": "",
+   "photos": [
+    "img/52979246/photo0.jpg",
+    "img/52979246/photo1.jpg",
+    "img/52979246/photo2.jpg"
+   ],
+   "dpe": "img/52979246/dpe.svg",
+   "qr": "img/52979246/qr.svg"
   },
   {
    "id": "52930310",
@@ -315,39 +339,10 @@
    ],
    "dpe": "img/22452998/dpe.svg",
    "qr": "img/22452998/qr.svg"
-  },
-  {
-   "id": "21649138",
-   "kind": "location",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-1-piece-21649138",
-   "type": "Appartement",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 510.0,
-   "surface": 40.03,
-   "rooms": "1",
-   "criteria": "40 m², 1 pièce",
-   "new": false,
-   "exclusive": true,
-   "features": [],
-   "accroche": "",
-   "resume": "Situé au centre-ville de Montauban, venez découvrir ce charmant T1 bis en duplex offrant une magnifique vue sur le Tarn. Sur deux niveaux, il comprend une cuisine aménagée, un coin nuit et…",
-   "loyer_hc": "470,00",
-   "charges": "40,00",
-   "depot": "470,00",
-   "honoraires": "Honoraires locataire : 400,30 € TTC",
-   "dispo": "",
-   "photos": [
-    "img/21649138/photo0.jpg",
-    "img/21649138/photo1.jpg",
-    "img/21649138/photo2.jpg"
-   ],
-   "dpe": "img/21649138/dpe.svg",
-   "qr": "img/21649138/qr.svg"
   }
  ],
  "counts": {
-  "vente": 65,
+  "vente": 66,
   "location": 43
  },
  "agency": {
