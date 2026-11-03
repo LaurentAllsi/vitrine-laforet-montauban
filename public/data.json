@@ -1,6 +1,32 @@
 {
- "generated_at": "2026-11-02T21:52",
+ "generated_at": "2026-11-03T12:10",
  "vente": [
+  {
+   "id": "53008303",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/appartement-1-piece-53008303",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 87500.0,
+   "surface": 19.0,
+   "rooms": "1",
+   "criteria": "19 m², 1 pièce",
+   "new": true,
+   "exclusive": true,
+   "features": [],
+   "accroche": "Investissez au coeur de Montauban !",
+   "resume": "Situé en hyper-centre, au 2/4 rue de l'Hôtel de Ville, ce charmant T1 bénéficie d'un emplacement recherché, à quelques pas de la Cathédrale et à proximité immédiate de la faculté. Niché au…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "65",
+   "photos": [
+    "img/53008303/photo0.jpg",
+    "img/53008303/photo1.jpg",
+    "img/53008303/photo2.jpg"
+   ],
+   "dpe": "img/53008303/dpe.svg",
+   "qr": "img/53008303/qr.svg"
+  },
   {
    "id": "52996514",
    "kind": "vente",
@@ -52,39 +78,13 @@
    "qr": "img/52994508/qr.svg"
   },
   {
-   "id": "52977120",
-   "kind": "vente",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/appartement-5-pieces-52977120",
-   "type": "Appartement",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 213800.0,
-   "surface": 92.0,
-   "rooms": "5",
-   "criteria": "92 m², 5 pièces, 3 chambres",
-   "new": true,
-   "exclusive": false,
-   "features": [],
-   "accroche": "",
-   "resume": "Situé en plein centre-ville de Montauban, à proximité des commerces et de toutes les commodités, découvrez cet appartement T5 offrant de beaux volumes. Il se compose d'un grand…",
-   "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "",
-   "photos": [
-    "img/52977120/photo0.jpg",
-    "img/52977120/photo1.jpg",
-    "img/52977120/photo2.jpg"
-   ],
-   "dpe": "img/52977120/dpe.svg",
-   "qr": "img/52977120/qr.svg"
-  },
-  {
    "id": "52846474",
    "kind": "vente",
    "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/immeuble-52846474",
    "type": "Immeuble",
    "city": "Montauban",
    "zip": "82000",
-   "price": 548600.0,
+   "price": 525000.0,
    "surface": 357.0,
    "rooms": "10",
    "criteria": "357 m², 10 pièces, 6 chambres",
@@ -347,7 +347,7 @@
   }
  ],
  "counts": {
-  "vente": 64,
+  "vente": 65,
   "location": 43
  },
  "agency": {
