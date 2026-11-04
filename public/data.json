@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T19:43",
+ "generated_at": "2026-11-04T12:23",
  "vente": [
   {
    "id": "53008304",
@@ -102,6 +102,34 @@
    "qr": "img/52994508/qr.svg"
   },
   {
+   "id": "22089598",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/appartement-3-pieces-22089598",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 172000.0,
+   "surface": 77.0,
+   "rooms": "3",
+   "criteria": "77 m², 3 pièces, 2 chambres",
+   "new": true,
+   "exclusive": true,
+   "features": [
+    "Ascenseur"
+   ],
+   "accroche": "",
+   "resume": "En hypercentre, découvrez ce bel appartement rénové, situé au 2? étage d'un immeuble avec ascenseur. Alliant charme de l'ancien et confort moderne, il séduit par son cachet et ses sols en…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "",
+   "photos": [
+    "img/22089598/photo0.jpg",
+    "img/22089598/photo1.jpg",
+    "img/22089598/photo2.jpg"
+   ],
+   "dpe": "img/22089598/dpe.svg",
+   "qr": "img/22089598/qr.svg"
+  },
+  {
    "id": "52846474",
    "kind": "vente",
    "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/immeuble-52846474",
@@ -129,32 +157,6 @@
    ],
    "dpe": "img/52846474/dpe.svg",
    "qr": "img/52846474/qr.svg"
-  },
-  {
-   "id": "52971068",
-   "kind": "vente",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/appartement-3-pieces-52971068",
-   "type": "Appartement",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 145000.0,
-   "surface": 68.0,
-   "rooms": "3",
-   "criteria": "68 m², 3 pièces, 2 chambres",
-   "new": false,
-   "exclusive": true,
-   "features": [],
-   "accroche": "",
-   "resume": "Au coeur du centre-ville de Montauban, cet appartement en duplex occupe le dernier étage d'une petite copropriété. Parfaitement entretenu, il bénéficie d'un séjour lumineux et d'une cuisine…",
-   "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "",
-   "photos": [
-    "img/52971068/photo0.jpg",
-    "img/52971068/photo1.jpg",
-    "img/52971068/photo2.jpg"
-   ],
-   "dpe": "img/52971068/dpe.svg",
-   "qr": "img/52971068/qr.svg"
   }
  ],
  "louer": [
@@ -342,7 +344,7 @@
   }
  ],
  "counts": {
-  "vente": 66,
+  "vente": 67,
   "location": 43
  },
  "agency": {
