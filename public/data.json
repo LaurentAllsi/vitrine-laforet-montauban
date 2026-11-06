@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T20:12",
+ "generated_at": "2026-11-06T12:20",
  "vente": [
   {
    "id": "53008304",
@@ -78,30 +78,6 @@
    "qr": "img/52996514/qr.svg"
   },
   {
-   "id": "52994508",
-   "kind": "vente",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/terrain-52994508",
-   "type": "Terrain",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 61500.0,
-   "surface": 0.0,
-   "rooms": "0",
-   "criteria": "730 m²",
-   "new": true,
-   "exclusive": true,
-   "features": [],
-   "accroche": "",
-   "resume": "À proximité immédiate du centre-ville de Montauban, découvrez ce terrain constructible de 730 m², idéal pour réaliser votre projet de construction. Son emplacement privilégié vous permet de…",
-   "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "730",
-   "photos": [
-    "img/52994508/photo0.jpg"
-   ],
-   "dpe": "",
-   "qr": "img/52994508/qr.svg"
-  },
-  {
    "id": "22089598",
    "kind": "vente",
    "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/appartement-3-pieces-22089598",
@@ -130,36 +106,88 @@
    "qr": "img/22089598/qr.svg"
   },
   {
-   "id": "52846474",
+   "id": "52994508",
    "kind": "vente",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/immeuble-52846474",
-   "type": "Immeuble",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/terrain-52994508",
+   "type": "Terrain",
    "city": "Montauban",
    "zip": "82000",
-   "price": 525000.0,
-   "surface": 357.0,
-   "rooms": "10",
-   "criteria": "357 m², 10 pièces, 6 chambres",
-   "new": true,
-   "exclusive": false,
-   "features": [
-    "Balcon",
-    "Cheminée"
-   ],
-   "accroche": "Montauban Hyper Centre",
-   "resume": "Idéalement situé en plein coeur de ville, ce superbe immeuble bourgeois en excellent état général offre un fort potentiel d'investissement. L'ensemble immobilier se compose de : ? En…",
+   "price": 61500.0,
+   "surface": 0.0,
+   "rooms": "0",
+   "criteria": "730 m²",
+   "new": false,
+   "exclusive": true,
+   "features": [],
+   "accroche": "",
+   "resume": "À proximité immédiate du centre-ville de Montauban, découvrez ce terrain constructible de 730 m², idéal pour réaliser votre projet de construction. Son emplacement privilégié vous permet de…",
    "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "354",
+   "terrain": "730",
    "photos": [
-    "img/52846474/photo0.jpg",
-    "img/52846474/photo1.jpg",
-    "img/52846474/photo2.jpg"
+    "img/52994508/photo0.jpg"
    ],
-   "dpe": "img/52846474/dpe.svg",
-   "qr": "img/52846474/qr.svg"
+   "dpe": "",
+   "qr": "img/52994508/qr.svg"
+  },
+  {
+   "id": "52971068",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/appartement-3-pieces-52971068",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 145000.0,
+   "surface": 68.0,
+   "rooms": "3",
+   "criteria": "68 m², 3 pièces, 2 chambres",
+   "new": false,
+   "exclusive": true,
+   "features": [],
+   "accroche": "",
+   "resume": "Au coeur du centre-ville de Montauban, cet appartement en duplex occupe le dernier étage d'une petite copropriété. Parfaitement entretenu, il bénéficie d'un séjour lumineux et d'une cuisine…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "",
+   "photos": [
+    "img/52971068/photo0.jpg",
+    "img/52971068/photo1.jpg",
+    "img/52971068/photo2.jpg"
+   ],
+   "dpe": "img/52971068/dpe.svg",
+   "qr": "img/52971068/qr.svg"
   }
  ],
  "louer": [
+  {
+   "id": "53012438",
+   "kind": "location",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-2-pieces-53012438",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 425.0,
+   "surface": 27.0,
+   "rooms": "2",
+   "criteria": "27 m², 2 pièces, 1 chambre",
+   "new": true,
+   "exclusive": true,
+   "features": [
+    "Ascenseur"
+   ],
+   "accroche": "",
+   "resume": "Studio situé en hyper centre de Montauban, au 1er étage avec ascenseur. Très calme, donne sur cour intérieure. Cuisine équipée d'une plaque et d'un réfrigérateur. Disponible",
+   "loyer_hc": "380,00",
+   "charges": "45,00",
+   "depot": "380,00",
+   "honoraires": "Honoraires locataire : 297,00 € TTC",
+   "dispo": "",
+   "photos": [
+    "img/53012438/photo0.jpg",
+    "img/53012438/photo1.jpg",
+    "img/53012438/photo2.jpg"
+   ],
+   "dpe": "img/53012438/dpe.svg",
+   "qr": "img/53012438/qr.svg"
+  },
   {
    "id": "53002759",
    "kind": "location",
@@ -190,35 +218,33 @@
    "qr": "img/53002759/qr.svg"
   },
   {
-   "id": "53012438",
+   "id": "22701275",
    "kind": "location",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-2-pieces-53012438",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/caussade/appartement-3-pieces-22701275",
    "type": "Appartement",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 425.0,
-   "surface": 27.0,
-   "rooms": "2",
-   "criteria": "27 m², 2 pièces, 1 chambre",
-   "new": false,
-   "exclusive": true,
-   "features": [
-    "Ascenseur"
-   ],
+   "city": "Caussade",
+   "zip": "82300",
+   "price": 455.0,
+   "surface": 70.82,
+   "rooms": "3",
+   "criteria": "71 m², 3 pièces, 2 chambres",
+   "new": true,
+   "exclusive": false,
+   "features": [],
    "accroche": "",
-   "resume": "Studio situé en hyper centre de Montauban, au 1er étage avec ascenseur. Très calme, donne sur cour intérieure. Cuisine équipée d'une plaque et d'un réfrigérateur. Disponible",
-   "loyer_hc": "380,00",
-   "charges": "45,00",
-   "depot": "380,00",
-   "honoraires": "Honoraires locataire : 297,00 € TTC",
+   "resume": "Appartement T3 à Caussade, situé au rez-de-chaussée d'un petit immeuble fermé et sécurisé. Composé d'un séjour, d'une cuisine ouverte, de deux chambres, d'une salle de bain et wc séparé, et…",
+   "loyer_hc": "405,00",
+   "charges": "50,00",
+   "depot": "405,00",
+   "honoraires": "Honoraires locataire : 637,38 € TTC",
    "dispo": "",
    "photos": [
-    "img/53012438/photo0.jpg",
-    "img/53012438/photo1.jpg",
-    "img/53012438/photo2.jpg"
+    "img/22701275/photo0.jpg",
+    "img/22701275/photo1.jpg",
+    "img/22701275/photo2.jpg"
    ],
-   "dpe": "img/53012438/dpe.svg",
-   "qr": "img/53012438/qr.svg"
+   "dpe": "img/22701275/dpe.svg",
+   "qr": "img/22701275/qr.svg"
   },
   {
    "id": "52930310",
@@ -312,41 +338,10 @@
    ],
    "dpe": "img/52399075/dpe.svg",
    "qr": "img/52399075/qr.svg"
-  },
-  {
-   "id": "22452998",
-   "kind": "location",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-4-pieces-22452998",
-   "type": "Appartement",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 790.0,
-   "surface": 95.37,
-   "rooms": "4",
-   "criteria": "95 m², 4 pièces, 3 chambres",
-   "new": false,
-   "exclusive": true,
-   "features": [
-    "Ascenseur"
-   ],
-   "accroche": "",
-   "resume": "Montauban centre Venez découvrir cet appartement avec terrasse et sa vue incroyable. Situé au dernier étage avec ascenseur cet appartement vous propose un séjour ouvrant sur la terrasse…",
-   "loyer_hc": "700,00",
-   "charges": "90,00",
-   "depot": "700,00",
-   "honoraires": "Honoraires locataire : 786,11 € TTC",
-   "dispo": "",
-   "photos": [
-    "img/22452998/photo0.jpg",
-    "img/22452998/photo1.jpg",
-    "img/22452998/photo2.jpg"
-   ],
-   "dpe": "img/22452998/dpe.svg",
-   "qr": "img/22452998/qr.svg"
   }
  ],
  "counts": {
-  "vente": 67,
+  "vente": 64,
   "location": 43
  },
  "agency": {
