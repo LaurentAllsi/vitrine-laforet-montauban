@@ -1,6 +1,35 @@
 {
- "generated_at": "2026-11-09T13:12",
+ "generated_at": "2026-11-09T22:38",
  "vente": [
+  {
+   "id": "53017625",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montbartier/maison-5-pieces-53017625",
+   "type": "Maison",
+   "city": "Montbartier",
+   "zip": "82700",
+   "price": 470000.0,
+   "surface": 145.0,
+   "rooms": "5",
+   "criteria": "145 m², 5 pièces, 4 chambres",
+   "new": true,
+   "exclusive": true,
+   "features": [
+    "Piscine",
+    "Garage"
+   ],
+   "accroche": "",
+   "resume": "Au sud de Montauban, au coeur du charmant village de Montbartier, découvrez cette magnifique maison contemporaine de type 5, conforme à la réglementation RE2020, de 145 m² habitables. Dès…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "612",
+   "photos": [
+    "img/53017625/photo0.jpg",
+    "img/53017625/photo1.jpg",
+    "img/53017625/photo2.jpg"
+   ],
+   "dpe": "img/53017625/dpe.svg",
+   "qr": "img/53017625/qr.svg"
+  },
   {
    "id": "53008304",
    "kind": "vente",
@@ -128,32 +157,6 @@
    ],
    "dpe": "",
    "qr": "img/52994508/qr.svg"
-  },
-  {
-   "id": "52971068",
-   "kind": "vente",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/appartement-3-pieces-52971068",
-   "type": "Appartement",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 145000.0,
-   "surface": 68.0,
-   "rooms": "3",
-   "criteria": "68 m², 3 pièces, 2 chambres",
-   "new": false,
-   "exclusive": true,
-   "features": [],
-   "accroche": "",
-   "resume": "Au coeur du centre-ville de Montauban, cet appartement en duplex occupe le dernier étage d'une petite copropriété. Parfaitement entretenu, il bénéficie d'un séjour lumineux et d'une cuisine…",
-   "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "",
-   "photos": [
-    "img/52971068/photo0.jpg",
-    "img/52971068/photo1.jpg",
-    "img/52971068/photo2.jpg"
-   ],
-   "dpe": "img/52971068/dpe.svg",
-   "qr": "img/52971068/qr.svg"
   }
  ],
  "louer": [
@@ -341,7 +344,7 @@
   }
  ],
  "counts": {
-  "vente": 63,
+  "vente": 64,
   "location": 42
  },
  "agency": {
