@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T12:52",
+ "generated_at": "2026-11-10T19:55",
  "vente": [
   {
    "id": "53017625",
@@ -344,7 +344,7 @@
   }
  ],
  "counts": {
-  "vente": 64,
+  "vente": 65,
   "location": 40
  },
  "agency": {
