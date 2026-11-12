@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T19:47",
+ "generated_at": "2026-11-12T13:03",
  "vente": [
   {
    "id": "53017625",
@@ -22,11 +22,7 @@
    "resume": "Au sud de Montauban, au coeur du charmant village de Montbartier, découvrez cette magnifique maison contemporaine de type 5, conforme à la réglementation RE2020, de 145 m² habitables. Dès…",
    "honoraires": "Honoraires à la charge du vendeur",
    "terrain": "612",
-   "photos": [
-    "img/53017625/photo0.jpg",
-    "img/53017625/photo1.jpg",
-    "img/53017625/photo2.jpg"
-   ],
+   "photos": [],
    "dpe": "img/53017625/dpe.svg",
    "qr": "img/53017625/qr.svg"
   },
@@ -48,9 +44,7 @@
    "resume": "Situé au coeur de Montauban, au sein de la résidence Alexandre 1er, découvrez cet appartement T5 traversant et lumineux, offrant de beaux volumes et un cadre de vie agréable. Il se compose…",
    "honoraires": "Honoraires à la charge du vendeur",
    "terrain": "",
-   "photos": [
-    "img/53008304/photo0.jpg"
-   ],
+   "photos": [],
    "dpe": "img/53008304/dpe.svg",
    "qr": "img/53008304/qr.svg"
   },
@@ -72,11 +66,7 @@
    "resume": "Situé en hyper-centre, au 2/4 rue de l'Hôtel de Ville, ce charmant T1 bénéficie d'un emplacement recherché, à quelques pas de la Cathédrale et à proximité immédiate de la faculté. Niché au…",
    "honoraires": "Honoraires à la charge du vendeur",
    "terrain": "65",
-   "photos": [
-    "img/53008303/photo0.jpg",
-    "img/53008303/photo1.jpg",
-    "img/53008303/photo2.jpg"
-   ],
+   "photos": [],
    "dpe": "img/53008303/dpe.svg",
    "qr": "img/53008303/qr.svg"
   },
@@ -100,11 +90,7 @@
    "resume": "En hypercentre, découvrez ce bel appartement rénové, situé au 2? étage d'un immeuble avec ascenseur. Alliant charme de l'ancien et confort moderne, il séduit par son cachet et ses sols en…",
    "honoraires": "Honoraires à la charge du vendeur",
    "terrain": "",
-   "photos": [
-    "img/22089598/photo0.jpg",
-    "img/22089598/photo1.jpg",
-    "img/22089598/photo2.jpg"
-   ],
+   "photos": [],
    "dpe": "img/22089598/dpe.svg",
    "qr": "img/22089598/qr.svg"
   },
@@ -126,11 +112,7 @@
    "resume": "Située à proximité du centre-ville, cette maison T5 offre un cadre de vie agréable avec un grand salon-séjour, une cuisine, une buanderie et un garage. L'espace nuit se compose de 4…",
    "honoraires": "Honoraires à la charge du vendeur",
    "terrain": "966",
-   "photos": [
-    "img/52996514/photo0.jpg",
-    "img/52996514/photo1.jpg",
-    "img/52996514/photo2.jpg"
-   ],
+   "photos": [],
    "dpe": "img/52996514/dpe.svg",
    "qr": "img/52996514/qr.svg"
   },
@@ -152,43 +134,12 @@
    "resume": "À proximité immédiate du centre-ville de Montauban, découvrez ce terrain constructible de 730 m², idéal pour réaliser votre projet de construction. Son emplacement privilégié vous permet de…",
    "honoraires": "Honoraires à la charge du vendeur",
    "terrain": "730",
-   "photos": [
-    "img/52994508/photo0.jpg"
-   ],
+   "photos": [],
    "dpe": "",
    "qr": "img/52994508/qr.svg"
   }
  ],
  "louer": [
-  {
-   "id": "53002759",
-   "kind": "location",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/albias/local-commercial-53002759",
-   "type": "Local commercial",
-   "city": "Albias",
-   "zip": "82350",
-   "price": 580.0,
-   "surface": 77.0,
-   "rooms": "0",
-   "criteria": "77 m²",
-   "new": true,
-   "exclusive": false,
-   "features": [],
-   "accroche": "",
-   "resume": "À deux pas du centre d'Albias, découvrez ce local professionnel situé en rez-de-chaussée, bénéficiant d'un emplacement pratique et facilement accessible. Il se compose d'une première pièce…",
-   "loyer_hc": "580,00",
-   "charges": "40,00",
-   "depot": "1 160,00",
-   "honoraires": "Honoraires locataire : 1 002,24 € TTC",
-   "dispo": "",
-   "photos": [
-    "img/53002759/photo0.jpg",
-    "img/53002759/photo1.jpg",
-    "img/53002759/photo2.jpg"
-   ],
-   "dpe": "img/53002759/dpe.svg",
-   "qr": "img/53002759/qr.svg"
-  },
   {
    "id": "22701275",
    "kind": "location",
@@ -210,11 +161,7 @@
    "depot": "405,00",
    "honoraires": "Honoraires locataire : 637,38 € TTC",
    "dispo": "",
-   "photos": [
-    "img/22701275/photo0.jpg",
-    "img/22701275/photo1.jpg",
-    "img/22701275/photo2.jpg"
-   ],
+   "photos": [],
    "dpe": "img/22701275/dpe.svg",
    "qr": "img/22701275/qr.svg"
   },
@@ -242,11 +189,7 @@
    "depot": "715,00",
    "honoraires": "Honoraires locataire : 598,20 € TTC",
    "dispo": "",
-   "photos": [
-    "img/52930310/photo0.jpg",
-    "img/52930310/photo1.jpg",
-    "img/52930310/photo2.jpg"
-   ],
+   "photos": [],
    "dpe": "img/52930310/dpe.svg",
    "qr": "img/52930310/qr.svg"
   },
@@ -271,11 +214,7 @@
    "depot": "950,00",
    "honoraires": "Honoraires locataire : 1 217,62 € TTC",
    "dispo": "",
-   "photos": [
-    "img/52562203/photo0.jpg",
-    "img/52562203/photo1.jpg",
-    "img/52562203/photo2.jpg"
-   ],
+   "photos": [],
    "dpe": "img/52562203/dpe.svg",
    "qr": "img/52562203/qr.svg"
   },
@@ -303,11 +242,7 @@
    "depot": "920,00",
    "honoraires": "Honoraires locataire : 264,00 € TTC",
    "dispo": "",
-   "photos": [
-    "img/52399075/photo0.jpg",
-    "img/52399075/photo1.jpg",
-    "img/52399075/photo2.jpg"
-   ],
+   "photos": [],
    "dpe": "img/52399075/dpe.svg",
    "qr": "img/52399075/qr.svg"
   },
@@ -334,18 +269,39 @@
    "depot": "700,00",
    "honoraires": "Honoraires locataire : 786,11 € TTC",
    "dispo": "",
-   "photos": [
-    "img/22452998/photo0.jpg",
-    "img/22452998/photo1.jpg",
-    "img/22452998/photo2.jpg"
-   ],
+   "photos": [],
    "dpe": "img/22452998/dpe.svg",
    "qr": "img/22452998/qr.svg"
+  },
+  {
+   "id": "21649138",
+   "kind": "location",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-1-piece-21649138",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 510.0,
+   "surface": 40.03,
+   "rooms": "1",
+   "criteria": "40 m², 1 pièce",
+   "new": false,
+   "exclusive": true,
+   "features": [],
+   "accroche": "",
+   "resume": "Situé au centre-ville de Montauban, venez découvrir ce charmant T1 bis en duplex offrant une magnifique vue sur le Tarn. Sur deux niveaux, il comprend une cuisine aménagée, un coin nuit et…",
+   "loyer_hc": "470,00",
+   "charges": "40,00",
+   "depot": "470,00",
+   "honoraires": "Honoraires locataire : 400,30 € TTC",
+   "dispo": "",
+   "photos": [],
+   "dpe": "img/21649138/dpe.svg",
+   "qr": "img/21649138/qr.svg"
   }
  ],
  "counts": {
   "vente": 65,
-  "location": 40
+  "location": 39
  },
  "agency": {
   "address": "15 allée de l’Empereur, 82000 Montauban",
