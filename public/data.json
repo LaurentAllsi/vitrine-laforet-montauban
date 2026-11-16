@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T13:01",
+ "generated_at": "2026-11-16T22:26",
  "vente": [
   {
    "id": "53017625",
@@ -347,7 +347,7 @@
  ],
  "counts": {
   "vente": 63,
-  "location": 40
+  "location": 39
  },
  "agency": {
   "address": "15 allée de l’Empereur, 82000 Montauban",
