@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T19:01",
+ "generated_at": "2026-11-16T13:01",
  "vente": [
   {
    "id": "53017625",
@@ -109,6 +109,32 @@
    "qr": "img/22089598/qr.svg"
   },
   {
+   "id": "53004419",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/saint-nauphary/maison-5-pieces-53004419",
+   "type": "Maison",
+   "city": "Saint Nauphary",
+   "zip": "82370",
+   "price": 276000.0,
+   "surface": 120.0,
+   "rooms": "5",
+   "criteria": "120 m², 5 pièces, 4 chambres",
+   "new": false,
+   "exclusive": true,
+   "features": [],
+   "accroche": "",
+   "resume": "À deux pas du centre de Saint-Nauphary, avec l'école à 1 minute à pied, cette maison de 2003 d'environ 120 m² offre tout le confort attendu par une famille, au calme et sans vis-à-vis…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "650",
+   "photos": [
+    "img/53004419/photo0.jpg",
+    "img/53004419/photo1.jpg",
+    "img/53004419/photo2.jpg"
+   ],
+   "dpe": "img/53004419/dpe.svg",
+   "qr": "img/53004419/qr.svg"
+  },
+  {
    "id": "52996514",
    "kind": "vente",
    "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/maison-5-pieces-52996514",
@@ -133,30 +159,6 @@
    ],
    "dpe": "img/52996514/dpe.svg",
    "qr": "img/52996514/qr.svg"
-  },
-  {
-   "id": "52994508",
-   "kind": "vente",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/terrain-52994508",
-   "type": "Terrain",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 61500.0,
-   "surface": 0.0,
-   "rooms": "0",
-   "criteria": "730 m²",
-   "new": false,
-   "exclusive": true,
-   "features": [],
-   "accroche": "",
-   "resume": "À proximité immédiate du centre-ville de Montauban, découvrez ce terrain constructible de 730 m², idéal pour réaliser votre projet de construction. Son emplacement privilégié vous permet de…",
-   "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "730",
-   "photos": [
-    "img/52994508/photo0.jpg"
-   ],
-   "dpe": "",
-   "qr": "img/52994508/qr.svg"
   }
  ],
  "louer": [
