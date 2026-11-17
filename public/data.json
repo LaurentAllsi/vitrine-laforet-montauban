@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T13:42",
+ "generated_at": "2026-11-17T21:14",
  "vente": [
   {
    "id": "53017625",
@@ -57,6 +57,34 @@
    ],
    "dpe": "img/22089598/dpe.svg",
    "qr": "img/22089598/qr.svg"
+  },
+  {
+   "id": "53020443",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/maison-5-pieces-53020443",
+   "type": "Maison",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 275000.0,
+   "surface": 155.0,
+   "rooms": "5",
+   "criteria": "155 m², 5 pièces, 4 chambres",
+   "new": true,
+   "exclusive": false,
+   "features": [
+    "Cheminée"
+   ],
+   "accroche": "Montauban Centre-ville - Secteur prisé",
+   "resume": "Au sein d'un environnement calme et verdoyant, laissez-vous séduire par cette authentique maison des années 1930, alliant charme et potentiel. Sur un magnifique jardin arboré, elle offre en…",
+   "honoraires": "Honoraires à la charge de l'acquéreur inclus : 5,77% soit 260 000,00 € honoraires exclus",
+   "terrain": "562",
+   "photos": [
+    "img/53020443/photo0.jpg",
+    "img/53020443/photo1.jpg",
+    "img/53020443/photo2.jpg"
+   ],
+   "dpe": "img/53020443/dpe.svg",
+   "qr": "img/53020443/qr.svg"
   },
   {
    "id": "53008304",
@@ -133,32 +161,6 @@
    ],
    "dpe": "img/53004419/dpe.svg",
    "qr": "img/53004419/qr.svg"
-  },
-  {
-   "id": "52996514",
-   "kind": "vente",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montauban/maison-5-pieces-52996514",
-   "type": "Maison",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 265800.0,
-   "surface": 132.0,
-   "rooms": "5",
-   "criteria": "132 m², 5 pièces, 4 chambres",
-   "new": false,
-   "exclusive": true,
-   "features": [],
-   "accroche": "",
-   "resume": "Située à proximité du centre-ville, cette maison T5 offre un cadre de vie agréable avec un grand salon-séjour, une cuisine, une buanderie et un garage. L'espace nuit se compose de 4…",
-   "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "966",
-   "photos": [
-    "img/52996514/photo0.jpg",
-    "img/52996514/photo1.jpg",
-    "img/52996514/photo2.jpg"
-   ],
-   "dpe": "img/52996514/dpe.svg",
-   "qr": "img/52996514/qr.svg"
   }
  ],
  "louer": [
@@ -346,7 +348,7 @@
   }
  ],
  "counts": {
-  "vente": 63,
+  "vente": 64,
   "location": 39
  },
  "agency": {
