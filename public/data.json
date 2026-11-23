@@ -1,35 +1,6 @@
 {
- "generated_at": "2026-11-22T19:55",
+ "generated_at": "2026-11-23T15:07",
  "vente": [
-  {
-   "id": "53017625",
-   "kind": "vente",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montbartier/maison-5-pieces-53017625",
-   "type": "Maison",
-   "city": "Montbartier",
-   "zip": "82700",
-   "price": 470000.0,
-   "surface": 145.0,
-   "rooms": "5",
-   "criteria": "145 m², 5 pièces, 4 chambres",
-   "new": true,
-   "exclusive": true,
-   "features": [
-    "Piscine",
-    "Garage"
-   ],
-   "accroche": "",
-   "resume": "Au sud de Montauban, au coeur du charmant village de Montbartier, découvrez cette magnifique maison contemporaine de type 5, conforme à la réglementation RE2020, de 145 m² habitables. Dès…",
-   "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "612",
-   "photos": [
-    "img/53017625/photo0.jpg",
-    "img/53017625/photo1.jpg",
-    "img/53017625/photo2.jpg"
-   ],
-   "dpe": "img/53017625/dpe.svg",
-   "qr": "img/53017625/qr.svg"
-  },
   {
    "id": "53020443",
    "kind": "vente",
@@ -85,6 +56,35 @@
    ],
    "dpe": "img/22335933/dpe.svg",
    "qr": "img/22335933/qr.svg"
+  },
+  {
+   "id": "53017625",
+   "kind": "vente",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/acheter/montbartier/maison-5-pieces-53017625",
+   "type": "Maison",
+   "city": "Montbartier",
+   "zip": "82700",
+   "price": 470000.0,
+   "surface": 145.0,
+   "rooms": "5",
+   "criteria": "145 m², 5 pièces, 4 chambres",
+   "new": false,
+   "exclusive": true,
+   "features": [
+    "Piscine",
+    "Garage"
+   ],
+   "accroche": "",
+   "resume": "Au sud de Montauban, au coeur du charmant village de Montbartier, découvrez cette magnifique maison contemporaine de type 5, conforme à la réglementation RE2020, de 145 m² habitables. Dès…",
+   "honoraires": "Honoraires à la charge du vendeur",
+   "terrain": "612",
+   "photos": [
+    "img/53017625/photo0.jpg",
+    "img/53017625/photo1.jpg",
+    "img/53017625/photo2.jpg"
+   ],
+   "dpe": "img/53017625/dpe.svg",
+   "qr": "img/53017625/qr.svg"
   },
   {
    "id": "53008304",
