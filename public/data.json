@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T15:05",
+ "generated_at": "2026-11-24T22:40",
  "vente": [
   {
    "id": "53020443",
@@ -18,7 +18,7 @@
     "Cheminée"
    ],
    "accroche": "Montauban Centre-ville - Secteur prisé",
-   "resume": "Au sein d'un environnement calme et verdoyant, laissez-vous séduire par cette authentique maison des années 1930, alliant charme et potentiel. Cette maison offre 155 m² habitables sur une…",
+   "resume": "Au sein d'un environnement calme et verdoyant, laissez-vous séduire par cette authentique maison des années 1930, alliant charme et potentiel. Cette maison offre 135 m² habitables sur une…",
    "honoraires": "Honoraires à la charge de l'acquéreur inclus : 5,77% soit 260 000,00 € honoraires exclus",
    "terrain": "562",
    "photos": [
@@ -346,7 +346,7 @@
   }
  ],
  "counts": {
-  "vente": 65,
+  "vente": 66,
   "location": 39
  },
  "agency": {
