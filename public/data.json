@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T14:47",
+ "generated_at": "2026-11-25T21:55",
  "vente": [
   {
    "id": "53032596",
@@ -225,6 +225,35 @@
    "qr": "img/53032403/qr.svg"
   },
   {
+   "id": "53042323",
+   "kind": "location",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/campsas/maison-5-pieces-53042323",
+   "type": "Maison",
+   "city": "Campsas",
+   "zip": "82370",
+   "price": 890.0,
+   "surface": 114.8,
+   "rooms": "5",
+   "criteria": "115 m², 5 pièces, 4 chambres",
+   "new": true,
+   "exclusive": false,
+   "features": [],
+   "accroche": "Maison à louer en bail précaire.",
+   "resume": "Cette maison de plain-pied se compose de quatre chambres, d'une cuisine, d'un séjour, d'une salle de bain et d'un WC séparé. Elle dispose également d'une terrasse, d'un double garage et…",
+   "loyer_hc": "",
+   "charges": "",
+   "depot": "890,00",
+   "honoraires": "Honoraires locataire : 445,00 € TTC",
+   "dispo": "",
+   "photos": [
+    "img/53042323/photo0.jpg",
+    "img/53042323/photo1.jpg",
+    "img/53042323/photo2.jpg"
+   ],
+   "dpe": "img/53042323/dpe.svg",
+   "qr": "img/53042323/qr.svg"
+  },
+  {
    "id": "52979246",
    "kind": "location",
    "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/albias/maison-4-pieces-52979246",
@@ -313,38 +342,6 @@
    ],
    "dpe": "img/52562203/dpe.svg",
    "qr": "img/52562203/qr.svg"
-  },
-  {
-   "id": "52399075",
-   "kind": "location",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-1-piece-52399075",
-   "type": "Appartement",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 500.0,
-   "surface": 24.0,
-   "rooms": "1",
-   "criteria": "24 m², 1 pièce",
-   "new": false,
-   "exclusive": true,
-   "features": [
-    "Ascenseur",
-    "Meublé"
-   ],
-   "accroche": "",
-   "resume": "Montauban centre ville bel appartement meublé entièrement refait à neuf Cuisine équipée ouvert sur une pièce à vivre avec rangements et salle d'eau avec wc",
-   "loyer_hc": "460,00",
-   "charges": "40,00",
-   "depot": "920,00",
-   "honoraires": "Honoraires locataire : 264,00 € TTC",
-   "dispo": "",
-   "photos": [
-    "img/52399075/photo0.jpg",
-    "img/52399075/photo1.jpg",
-    "img/52399075/photo2.jpg"
-   ],
-   "dpe": "img/52399075/dpe.svg",
-   "qr": "img/52399075/qr.svg"
   }
  ],
  "counts": {
