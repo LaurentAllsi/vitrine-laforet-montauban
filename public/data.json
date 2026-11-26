@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T21:55",
+ "generated_at": "2026-11-26T14:10",
  "vente": [
   {
    "id": "53032596",
@@ -254,6 +254,37 @@
    "qr": "img/53042323/qr.svg"
   },
   {
+   "id": "53012438",
+   "kind": "location",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-2-pieces-53012438",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 425.0,
+   "surface": 27.0,
+   "rooms": "2",
+   "criteria": "27 m², 2 pièces, 1 chambre",
+   "new": false,
+   "exclusive": true,
+   "features": [
+    "Ascenseur"
+   ],
+   "accroche": "",
+   "resume": "Studio situé en hyper centre de Montauban, au 1er étage avec ascenseur. Très calme, donne sur cour intérieure. Cuisine équipée d'une plaque et d'un réfrigérateur. Disponible",
+   "loyer_hc": "380,00",
+   "charges": "45,00",
+   "depot": "380,00",
+   "honoraires": "Honoraires locataire : 297,00 € TTC",
+   "dispo": "",
+   "photos": [
+    "img/53012438/photo0.jpg",
+    "img/53012438/photo1.jpg",
+    "img/53012438/photo2.jpg"
+   ],
+   "dpe": "img/53012438/dpe.svg",
+   "qr": "img/53012438/qr.svg"
+  },
+  {
    "id": "52979246",
    "kind": "location",
    "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/albias/maison-4-pieces-52979246",
@@ -289,7 +320,7 @@
    "type": "Appartement",
    "city": "Montauban",
    "zip": "82000",
-   "price": 780.0,
+   "price": 770.0,
    "surface": 59.82,
    "rooms": "3",
    "criteria": "60 m², 3 pièces, 2 chambres",
@@ -301,9 +332,9 @@
    ],
    "accroche": "",
    "resume": "Centre ville de Montauban, au 4ème étage avec ascenseur, au sein d'une résidence sécurisée, ce bel appartement très lumineux offre un cadre de vie agréable au coeur de Montauban. Il se…",
-   "loyer_hc": "715,00",
+   "loyer_hc": "705,00",
    "charges": "65,00",
-   "depot": "715,00",
+   "depot": "705,00",
    "honoraires": "Honoraires locataire : 598,20 € TTC",
    "dispo": "",
    "photos": [
@@ -313,39 +344,10 @@
    ],
    "dpe": "img/52930310/dpe.svg",
    "qr": "img/52930310/qr.svg"
-  },
-  {
-   "id": "52562203",
-   "kind": "location",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-5-pieces-52562203",
-   "type": "Appartement",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 1000.0,
-   "surface": 172.54,
-   "rooms": "5",
-   "criteria": "173 m², 5 pièces, 3 chambres",
-   "new": false,
-   "exclusive": true,
-   "features": [],
-   "accroche": "",
-   "resume": "Exclusivité, situé au sein d'un bel hôtel particulier en plein coeur du centre ville, cet appartement de 172m2 en rez de chaussée offre un cadre de vie exceptionnel. Le bien comprend : - un…",
-   "loyer_hc": "950,00",
-   "charges": "50,00",
-   "depot": "950,00",
-   "honoraires": "Honoraires locataire : 1 217,62 € TTC",
-   "dispo": "",
-   "photos": [
-    "img/52562203/photo0.jpg",
-    "img/52562203/photo1.jpg",
-    "img/52562203/photo2.jpg"
-   ],
-   "dpe": "img/52562203/dpe.svg",
-   "qr": "img/52562203/qr.svg"
   }
  ],
  "counts": {
-  "vente": 66,
+  "vente": 65,
   "location": 41
  },
  "agency": {
