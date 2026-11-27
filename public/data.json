@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T21:49",
+ "generated_at": "2026-11-27T14:07",
  "vente": [
   {
    "id": "53032596",
@@ -155,7 +155,7 @@
    "accroche": "Investissez au coeur de Montauban !",
    "resume": "Situé en hyper-centre, au 2/4 rue de l'Hôtel de Ville, ce charmant T1 bénéficie d'un emplacement recherché, à quelques pas de la Cathédrale et à proximité immédiate de la faculté. Niché au…",
    "honoraires": "Honoraires à la charge du vendeur",
-   "terrain": "65",
+   "terrain": "",
    "photos": [
     "img/53008303/photo0.jpg",
     "img/53008303/photo1.jpg",
@@ -254,37 +254,6 @@
    "qr": "img/53042323/qr.svg"
   },
   {
-   "id": "53012438",
-   "kind": "location",
-   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-2-pieces-53012438",
-   "type": "Appartement",
-   "city": "Montauban",
-   "zip": "82000",
-   "price": 425.0,
-   "surface": 27.0,
-   "rooms": "2",
-   "criteria": "27 m², 2 pièces, 1 chambre",
-   "new": false,
-   "exclusive": true,
-   "features": [
-    "Ascenseur"
-   ],
-   "accroche": "",
-   "resume": "Studio situé en hyper centre de Montauban, au 1er étage avec ascenseur. Très calme, donne sur cour intérieure. Cuisine équipée d'une plaque et d'un réfrigérateur. Disponible",
-   "loyer_hc": "380,00",
-   "charges": "45,00",
-   "depot": "380,00",
-   "honoraires": "Honoraires locataire : 297,00 € TTC",
-   "dispo": "",
-   "photos": [
-    "img/53012438/photo0.jpg",
-    "img/53012438/photo1.jpg",
-    "img/53012438/photo2.jpg"
-   ],
-   "dpe": "img/53012438/dpe.svg",
-   "qr": "img/53012438/qr.svg"
-  },
-  {
    "id": "52979246",
    "kind": "location",
    "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/albias/maison-4-pieces-52979246",
@@ -341,6 +310,38 @@
    ],
    "dpe": "img/52562203/dpe.svg",
    "qr": "img/52562203/qr.svg"
+  },
+  {
+   "id": "52399075",
+   "kind": "location",
+   "url": "https://www.laforet.com/agence-immobiliere/montauban/louer/montauban/appartement-1-piece-52399075",
+   "type": "Appartement",
+   "city": "Montauban",
+   "zip": "82000",
+   "price": 500.0,
+   "surface": 24.0,
+   "rooms": "1",
+   "criteria": "24 m², 1 pièce",
+   "new": false,
+   "exclusive": true,
+   "features": [
+    "Ascenseur",
+    "Meublé"
+   ],
+   "accroche": "",
+   "resume": "Montauban centre ville bel appartement meublé entièrement refait à neuf Cuisine équipée ouvert sur une pièce à vivre avec rangements et salle d'eau avec wc",
+   "loyer_hc": "460,00",
+   "charges": "40,00",
+   "depot": "920,00",
+   "honoraires": "Honoraires locataire : 264,00 € TTC",
+   "dispo": "",
+   "photos": [
+    "img/52399075/photo0.jpg",
+    "img/52399075/photo1.jpg",
+    "img/52399075/photo2.jpg"
+   ],
+   "dpe": "img/52399075/dpe.svg",
+   "qr": "img/52399075/qr.svg"
   }
  ],
  "counts": {
